@@ -1,0 +1,2123 @@
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR UITests  - invalid selector: Unable to locate an element with the xpath expression (//button[contains(@class,'chat-bubble-button')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[contains(@class,'chat-bubble-button')]' is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.hF0MLJ}, goog:chromeOptions: {debuggerAddress: localhost:36101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0611218b346a179553b628f5c2f7c1dd
+*** Element info: {Using=xpath, value=(//button[contains(@class,'chat-bubble-button')]}
+INFO  AssertLogger  - invalid selector: Unable to locate an element with the xpath expression (//button[contains(@class,'chat-bubble-button')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[contains(@class,'chat-bubble-button')]' is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.hF0MLJ}, goog:chromeOptions: {debuggerAddress: localhost:36101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0611218b346a179553b628f5c2f7c1dd
+*** Element info: {Using=xpath, value=(//button[contains(@class,'chat-bubble-button')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_ask_aspen :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+ERROR UITests  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@_ngcontent-sca-c15]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.QqMcW9}, goog:chromeOptions: {debuggerAddress: localhost:34231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1826787149c1e831952ed21289a3a898
+*** Element info: {Using=xpath, value=//button[@_ngcontent-sca-c15]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@_ngcontent-sca-c15]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.QqMcW9}, goog:chromeOptions: {debuggerAddress: localhost:34231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1826787149c1e831952ed21289a3a898
+*** Element info: {Using=xpath, value=//button[@_ngcontent-sca-c15]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR UITests  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.YOsNs6}, goog:chromeOptions: {debuggerAddress: localhost:33751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9063ca4b08c9dd72190521bc20cf1eef
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.YOsNs6}, goog:chromeOptions: {debuggerAddress: localhost:33751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9063ca4b08c9dd72190521bc20cf1eef
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  AssertLogger  - Thank You Message Displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  AssertLogger  - Thank You Message Displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form displayed Condition :[true]
+INFO  AssertLogger  - Thank You Message Displayed Condition :[true]
+INFO  ValidationHelper  - Current Url: http://aspen-ui-dev-int.albanero.com/
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  UITests  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR UITests  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button1')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.H3i8Oy}, goog:chromeOptions: {debuggerAddress: localhost:37015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a822ddfa94a125e1ed4355b1c98deda
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button1')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button1')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.H3i8Oy}, goog:chromeOptions: {debuggerAddress: localhost:37015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a822ddfa94a125e1ed4355b1c98deda
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button1')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.8HZIb0}, goog:chromeOptions: {debuggerAddress: localhost:45481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 821d7f1bfc2e38bf28bad2deb200d510
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'chat-bubble-button')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.8HZIb0}, goog:chromeOptions: {debuggerAddress: localhost:45481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 821d7f1bfc2e38bf28bad2deb200d510
+*** Element info: {Using=xpath, value=//button[contains(@class,'chat-bubble-button')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='cdk-overlay-3']//div[text()='Credit Card Payment Confirmation']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Pizz02}, goog:chromeOptions: {debuggerAddress: localhost:36875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 55067a566c575289e2371924104da336
+*** Element info: {Using=xpath, value=//div[@id='cdk-overlay-3']//div[text()='Credit Card Payment Confirmation']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='cdk-overlay-3']//div[text()='Credit Card Payment Confirmation']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Pizz02}, goog:chromeOptions: {debuggerAddress: localhost:36875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 55067a566c575289e2371924104da336
+*** Element info: {Using=xpath, value=//div[@id='cdk-overlay-3']//div[text()='Credit Card Payment Confirmation']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Payment done and confirmation number displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Would you like to use a credit card/ACH for payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Rywa45}, goog:chromeOptions: {debuggerAddress: localhost:35345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6213ad82d2c7c7c782230902ad12046
+*** Element info: {Using=xpath, value=//span[text()='Would you like to use a credit card/ACH for payment?']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Would you like to use a credit card/ACH for payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Rywa45}, goog:chromeOptions: {debuggerAddress: localhost:35345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6213ad82d2c7c7c782230902ad12046
+*** Element info: {Using=xpath, value=//span[text()='Would you like to use a credit card/ACH for payment?']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Would you like to use a credit card/ACH for payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.uVg5LF}, goog:chromeOptions: {debuggerAddress: localhost:35477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f684fcc27044eddca5e4c6099486b16
+*** Element info: {Using=xpath, value=//span[text()='Would you like to use a credit card/ACH for payment?']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Would you like to use a credit card/ACH for payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.uVg5LF}, goog:chromeOptions: {debuggerAddress: localhost:35477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f684fcc27044eddca5e4c6099486b16
+*** Element info: {Using=xpath, value=//span[text()='Would you like to use a credit card/ACH for payment?']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.XrcWxm}, goog:chromeOptions: {debuggerAddress: localhost:42683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9c61bf1524011454979a70694094f93
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.XrcWxm}, goog:chromeOptions: {debuggerAddress: localhost:42683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9c61bf1524011454979a70694094f93
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.bX15y0}, goog:chromeOptions: {debuggerAddress: localhost:42385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7baa30d5d95da3e4bfd810cb99d6d8ec
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.bX15y0}, goog:chromeOptions: {debuggerAddress: localhost:42385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7baa30d5d95da3e4bfd810cb99d6d8ec
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.8bmzOq}, goog:chromeOptions: {debuggerAddress: localhost:37785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4826f4b2b21b364dfd5d0c3ef1645a2f
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.8bmzOq}, goog:chromeOptions: {debuggerAddress: localhost:37785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4826f4b2b21b364dfd5d0c3ef1645a2f
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Zcd0a0}, goog:chromeOptions: {debuggerAddress: localhost:39553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c6553bc4c7331c2da61695ac9d6dbb8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Zcd0a0}, goog:chromeOptions: {debuggerAddress: localhost:39553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c6553bc4c7331c2da61695ac9d6dbb8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.VUZQuS}, goog:chromeOptions: {debuggerAddress: localhost:38847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf57092b12e6d658f66d522c7f2b6098
+*** Element info: {Using=xpath, value=//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.VUZQuS}, goog:chromeOptions: {debuggerAddress: localhost:38847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf57092b12e6d658f66d522c7f2b6098
+*** Element info: {Using=xpath, value=//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.hzIDzq}, goog:chromeOptions: {debuggerAddress: localhost:41055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1193ccc669137bce938ba9b7b2430834
+*** Element info: {Using=xpath, value=//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.hzIDzq}, goog:chromeOptions: {debuggerAddress: localhost:41055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1193ccc669137bce938ba9b7b2430834
+*** Element info: {Using=xpath, value=//app-confirmation-dialog//div[text()='Are you sure you want to make payment?']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Are you sure you want to make payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Confirm ']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.2VDYQ3}, goog:chromeOptions: {debuggerAddress: localhost:36283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3160d3cabf56a16c175fa8cfc75a2782
+*** Element info: {Using=xpath, value=//div[text()='Are you sure you want to make payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Confirm ']}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Are you sure you want to make payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Confirm ']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.2VDYQ3}, goog:chromeOptions: {debuggerAddress: localhost:36283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3160d3cabf56a16c175fa8cfc75a2782
+*** Element info: {Using=xpath, value=//div[text()='Are you sure you want to make payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Confirm ']} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Payment done and confirmation number displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.SSKoW0}, goog:chromeOptions: {debuggerAddress: localhost:35191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20963a72e31ea714dffda8d4fb1df955
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.SSKoW0}, goog:chromeOptions: {debuggerAddress: localhost:35191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20963a72e31ea714dffda8d4fb1df955
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.afHB0s}, goog:chromeOptions: {debuggerAddress: localhost:44963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b536736b48a5fd75986781ee00943356
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.afHB0s}, goog:chromeOptions: {debuggerAddress: localhost:44963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b536736b48a5fd75986781ee00943356
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.ZslwRM}, goog:chromeOptions: {debuggerAddress: localhost:44087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc905fb004e807b1240f7f48022d84ec
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.ZslwRM}, goog:chromeOptions: {debuggerAddress: localhost:44087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc905fb004e807b1240f7f48022d84ec
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Payment done and confirmation number displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.QFfOrB}, goog:chromeOptions: {debuggerAddress: localhost:36855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 57a2aa3d6fbaa5e90ffaff3ec08db952
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.QFfOrB}, goog:chromeOptions: {debuggerAddress: localhost:36855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 57a2aa3d6fbaa5e90ffaff3ec08db952
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  TestExecutionHelper  - Clicked No for : Would you like to pay in full?
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.t9as56}, goog:chromeOptions: {debuggerAddress: localhost:35933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e43737c72052ddad6c97c1686812044d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Would you like to use a credit card')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.t9as56}, goog:chromeOptions: {debuggerAddress: localhost:35933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e43737c72052ddad6c97c1686812044d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Would you like to use a credit card')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  TestExecutionHelper  - Clicked No for : Would you like to pay in full?
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  TestExecutionHelper  - Clicked No for : Would you like to pay in full?
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Payment done and confirmation number displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  TestExecutionHelper  - Clicked No for : Would you like to pay in full?
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+ERROR CheckBalanceTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'The minimum monthly payment')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.f3LvfR}, goog:chromeOptions: {debuggerAddress: localhost:39217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b3a9ec231fd3dcb6a8325fca86445ed
+*** Element info: {Using=xpath, value=//span[contains(text(),'The minimum monthly payment')]}
+INFO  AssertLogger  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'The minimum monthly payment')]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'work-machine', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-55-generic', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.f3LvfR}, goog:chromeOptions: {debuggerAddress: localhost:39217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b3a9ec231fd3dcb6a8325fca86445ed
+*** Element info: {Using=xpath, value=//span[contains(text(),'The minimum monthly payment')]} Condition :[false]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan is $160/month for 6 months message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment message displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment yes button displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment no button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment message displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment yes button displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment no button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================

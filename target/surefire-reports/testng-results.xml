@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[START TEST : init]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : init]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_3]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_3]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : closeDriverObjects]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : closeDriverObjects]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="27249" started-at="2020-06-11T12:21:09Z" finished-at="2020-06-11T12:21:36Z">
+    <groups>
+      <group name="sanity">
+        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- sanity -->
+      <group name="CheckBalance3">
+        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance3 -->
+    </groups>
+    <test name="Surefire test" duration-ms="27249" started-at="2020-06-11T12:21:09Z" finished-at="2020-06-11T12:21:36Z">
+      <class name="com.briozing.automation.suites.CheckBalanceTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="init" is-config="true" duration-ms="12" started-at="2020-06-11T17:51:09Z" finished-at="2020-06-11T17:51:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[END TEST : init]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" duration-ms="27237" started-at="2020-06-11T17:51:09Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes,select credit card, payment done , thank you" finished-at="2020-06-11T17:51:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_3 -->
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="closeDriverObjects" is-config="true" duration-ms="69" started-at="2020-06-11T17:51:36Z" finished-at="2020-06-11T17:51:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[END TEST : closeDriverObjects]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDriverObjects -->
+      </class> <!-- com.briozing.automation.suites.CheckBalanceTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
