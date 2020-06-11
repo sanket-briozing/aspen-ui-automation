@@ -9,7 +9,7 @@
     </method-selectors>
     <groups>
       <run>
-        <include name="CheckBalance3"/>
+        <include name="CheckBalance4"/>
       </run>
     </groups>
     <classes>
