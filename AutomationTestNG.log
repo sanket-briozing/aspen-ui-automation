@@ -2365,3 +2365,496 @@ INFO  MethodListener  - Result: Passed
 INFO  MethodListener  - ==========================================================================================
 INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
 INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+ERROR CheckBalanceTest  - 
+INFO  AssertLogger  - Conditionfalse]
+INFO  MethodListener  - Result: Failed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Payment done and confirmation number displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_1 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_2 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment message displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment yes button displayed Condition :[true]
+INFO  AssertLogger  - Minimum monthly payment no button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_3 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Payment mode message displayed Condition :[true]
+INFO  AssertLogger  - Input name on card displayed Condition :[true]
+INFO  AssertLogger  - Input phone number displayed Condition :[true]
+INFO  AssertLogger  - Input amount displayed Condition :[true]
+INFO  AssertLogger  - Input card number displayed Condition :[true]
+INFO  AssertLogger  - Input card type displayed Condition :[true]
+INFO  AssertLogger  - Input cvc displayed Condition :[true]
+INFO  AssertLogger  - Input card expiry displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 1 displayed Condition :[true]
+INFO  AssertLogger  - Input addressline 2 displayed Condition :[true]
+INFO  AssertLogger  - Input city displayed Condition :[true]
+INFO  AssertLogger  - Input state displayed Condition :[true]
+INFO  AssertLogger  - Input zipcode displayed Condition :[true]
+INFO  AssertLogger  - Input country displayed Condition :[true]
+INFO  AssertLogger  - Pay button displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message heading displayed Condition :[true]
+INFO  AssertLogger  - Payment confirmation message displayed Condition :[true]
+INFO  AssertLogger  - confirm button displayed Condition :[true]
+INFO  AssertLogger  - cancel button displayed Condition :[true]
+INFO  AssertLogger  - Plan payment done. can i help you? message displayed Condition :[true]
+INFO  AssertLogger  - can i help you? Yes button displayed Condition :[true]
+INFO  AssertLogger  - can i help you? No button displayed Condition :[true]
+INFO  AssertLogger  - Thank you! have a great day message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_4 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : userLogout :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
