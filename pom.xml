@@ -14,6 +14,7 @@
         <selenium.version>3.9.1</selenium.version>
         <parallelType>methods</parallelType>
         <threads>1</threads>
+        <osName>linux</osName>
         <browser>chrome</browser>
         <browserName>chrome</browserName>
         <browserVersion>64.0</browserVersion>
@@ -60,7 +61,7 @@
                                 <browserVersion>${browserVersion}</browserVersion>
                                 <buildName>${buildName}</buildName>
                                 <envName>${executionOn}</envName>
-                                <webdriver.chrome.driver>${project.basedir}/src/test/resources/chromedriver</webdriver.chrome.driver>
+                                <webdriver.chrome.driver>${project.basedir}/src/test/resources/${osName}/chromedriver</webdriver.chrome.driver>
                             </systemPropertyVariables>
                             <testFailureIgnore>false</testFailureIgnore>
                         </configuration>
@@ -101,8 +102,7 @@
                                 <browserVersion>${browserVersion}</browserVersion>
                                 <buildName>${buildName}</buildName>
                                 <envName>${executionOn}</envName>
-                                <webdriver.chrome.driver>${project.basedir}/src/test/resources/chromedriver.exe
-                                </webdriver.chrome.driver>
+                                <webdriver.chrome.driver>${project.basedir}/src/test/resources/${osName}/chromedriver</webdriver.chrome.driver>
                             </systemPropertyVariables>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
