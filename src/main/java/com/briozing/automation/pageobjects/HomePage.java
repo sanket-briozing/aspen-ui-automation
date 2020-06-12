@@ -165,6 +165,9 @@ public class HomePage {
     @FindBy(xpath = "//span[contains(text(),'The minimum monthly payment')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' No ']/parent::button")
     public WebElement minimumMonthlyPaymentNo;
 
+    @FindBy(xpath = "//span[contains(text(),'Please be sure to make your payment on time')]")
+    public WebElement reminderMessage;
+
     public void askAspenButtonClick() throws Exception {
         askAspenButton.click();
         commonMethods.pause(2000);

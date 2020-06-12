@@ -2365,3 +2365,93 @@ INFO  MethodListener  - Result: Passed
 INFO  MethodListener  - ==========================================================================================
 INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
 INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_5 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - How much would you like to pay each month? message displayed Condition :[true]
+INFO  AssertLogger  - Start conversation input area displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Reminder payment message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_5 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  CheckBalanceTest  - ====== SettingUp Suite Execution ======
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  - Verify not null Condition :[true]
+INFO  AssertLogger  -  Verify value of key portal.url should not null Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : init :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : verify_check_balance_6 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  AssertLogger  - Ask Aspen button displayed Condition :[true]
+INFO  AssertLogger  - Check balance button displayed Condition :[true]
+INFO  AssertLogger  - Login form message displayed Condition :[true]
+INFO  AssertLogger  - Input for username displayed Condition :[true]
+INFO  AssertLogger  - Input for password displayed Condition :[true]
+INFO  AssertLogger  - Login button displayed Condition :[true]
+INFO  AssertLogger  - Total outstanding balance message displayed Condition :[true]
+INFO  AssertLogger  - Yes option displayed Condition :[true]
+INFO  AssertLogger  - No option displayed Condition :[true]
+INFO  AssertLogger  - Can I help you set up a payment plan today? message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Recommended plan message displayed Condition :[true]
+INFO  AssertLogger  - Yes button displayed Condition :[true]
+INFO  AssertLogger  - No button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed make 1st payment message displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed Yes button displayed Condition :[true]
+INFO  AssertLogger  - Plan agreed No button displayed Condition :[true]
+INFO  AssertLogger  - Reminder payment message displayed Condition :[true]
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : verify_check_balance_6 :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: START TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - Result: Passed
+INFO  MethodListener  - ==========================================================================================
+INFO  MethodListener  - ::::::: END TEST : closeDriverObjects :::::::::
+INFO  MethodListener  - ==========================================================================================

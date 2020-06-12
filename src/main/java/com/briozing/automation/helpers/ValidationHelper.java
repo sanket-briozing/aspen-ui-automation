@@ -109,6 +109,10 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.minimumMonthlyPaymentNo.isDisplayed(),"Minimum monthly payment no button displayed");
     }
 
+    public void validateReminderMessageDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.reminderMessage.isDisplayed(),"Reminder payment message displayed");
+    }
+
     public void fillDetailsAndLogin(HomePage homePage){
         homePage.usernameInput.sendKeys("ActTest001");
         homePage.passwordInput.sendKeys("Password");

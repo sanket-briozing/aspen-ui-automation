@@ -168,5 +168,66 @@ public class CheckBalanceTest extends BaseTest {
             AppAssert.assertTrue(false, ex.getMessage());
         }
     }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance5"}, description = "Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount above 110, make payment no, remminder messege displayed")
+    public void verify_check_balance_5() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new HashMap();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_EMI_MESSAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testExecutionHelper.executeTest5(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance6"}, description = "Verify check balance - ")
+    public void verify_check_balance_6() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new HashMap();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testExecutionHelper.executeTest6(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
 }
 
