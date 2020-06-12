@@ -13,6 +13,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Listeners({MethodListener.class})
@@ -25,7 +26,7 @@ public class CheckBalanceTest extends BaseTest {
     public void verify_check_balance_1() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -43,7 +44,8 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
-            testExecutionHelper.executeTest1(testSteps,homePageObj);
+//            testExecutionHelper.executeTest1(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());
@@ -54,7 +56,7 @@ public class CheckBalanceTest extends BaseTest {
     public void verify_check_balance_2() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -80,18 +82,19 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
-            testExecutionHelper.executeTest2(testSteps,homePageObj);
+//            testExecutionHelper.executeTest2(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());
         }
     }
 
-    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance3"}, description = "Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes,select credit card, payment done , thank you")
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance3"}, description = "Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes, select credit card, payment done , thank you")
     public void verify_check_balance_3() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -122,7 +125,8 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
-            testExecutionHelper.executeTest3(testSteps,homePageObj);
+//            testExecutionHelper.executeTest3(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());
@@ -133,7 +137,7 @@ public class CheckBalanceTest extends BaseTest {
     public void verify_check_balance_4() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -162,7 +166,8 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
-            testExecutionHelper.executeTest4(testSteps,homePageObj);
+//            testExecutionHelper.executeTest4(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());
@@ -173,7 +178,7 @@ public class CheckBalanceTest extends BaseTest {
     public void verify_check_balance_5() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -194,18 +199,19 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
-            testExecutionHelper.executeTest5(testSteps,homePageObj);
+//            testExecutionHelper.executeTest5(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());
         }
     }
 
-    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance6"}, description = "Verify check balance - ")
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance6"}, description = "Verify check balance - pay in full no, setup payment plan yes, recommended plan yes , plan agreed no, remminder messege displayed")
     public void verify_check_balance_6() {
         try {
             HomePage homePageObj = new HomePage();
-            Map<String,Boolean> testSteps= new HashMap();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
             testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
             testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
@@ -223,7 +229,8 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
-            testExecutionHelper.executeTest6(testSteps,homePageObj);
+//            testExecutionHelper.executeTest6(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
             AppAssert.assertTrue(false, ex.getMessage());

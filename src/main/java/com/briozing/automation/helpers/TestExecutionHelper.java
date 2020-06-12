@@ -623,4 +623,161 @@ public class TestExecutionHelper {
             validationHelper.validateReminderMessageDisplay(homePage);
         }
     }
+
+    public void executeTest(Map<String ,Boolean> testSteps, final HomePage homePage){
+        testSteps.forEach((key,value)->{executeStep(key,value,homePage);});
+    }
+
+    public void executeStep(String stepName, Boolean isStepEnabled, HomePage homePage){
+        if(TestSteps.STEP_LAUNCH_HOME_PAGE.name().equals(stepName) && isStepEnabled){
+            try{
+                homePage.launch();
+                commonMethods.pause(2000);
+            }catch (Exception ex){
+                logger.error(ex.getMessage());
+                AppAssert.assertTrue(false,ex.getMessage());
+            }
+        }
+
+        if(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateAskAspenButtonDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name().equals(stepName) && isStepEnabled){
+            homePage.askAspenButton.click();
+        }
+
+        if(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateCheckBalanceButtonDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name().equals(stepName) && isStepEnabled){
+            homePage.checkBalanceButton.click();
+        }
+
+        if(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateLoginFormDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name().equals(stepName) && isStepEnabled){
+            validationHelper.fillDetailsAndLogin(homePage);
+        }
+
+        if(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateTotalOutstandingBalanceMessageDisplayed(homePage);
+        }
+
+        if(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name().equals(stepName) && isStepEnabled){
+            validationHelper.validatePayInFullOptionButtonsDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_PAY_IN_FULL_YES.name().equals(stepName) && isStepEnabled){
+            homePage.payInFullYes.click();
+        }
+
+        if(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name().equals(stepName) && isStepEnabled){
+            homePage.payInFullNo.click();
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validatePaymentModeMessageDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name().equals(stepName) && isStepEnabled){
+            homePage.creditCardButton.click();
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            validationHelper.validatePaymentDetailsFromDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.fillPaymentDetailsAndPay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validatePaymentConfirmationPopupDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name().equals(stepName) && isStepEnabled){
+            homePage.confirmPaymentButton.click();
+            commonMethods.pause(2000);
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name().equals(stepName) && isStepEnabled){
+            validationHelper.validatePaymentDoneConfirmationMessage(homePage);
+        }
+
+        if(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateSetupPaymentPlanTodayCardDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name().equals(stepName) && isStepEnabled){
+            homePage.setupPaymentPlanTodayYes.click();
+        }
+
+        if(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateRecommendedPlanCardDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name().equals(stepName) && isStepEnabled){
+            homePage.recommendedPlanYes.click();
+        }
+
+        if(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name().equals(stepName) && isStepEnabled){
+            homePage.recommendedPlanNo.click();
+        }
+
+        if(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.planAgreedMakePaymentCardDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name().equals(stepName) && isStepEnabled){
+            homePage.planAgreedMakePaymentYes.click();
+        }
+
+        if(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name().equals(stepName) && isStepEnabled){
+            homePage.planAgreedMakePaymentNo.click();
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name().equals(stepName) && isStepEnabled){
+            validationHelper.planPaymentDoneAndHelpCardDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name().equals(stepName) && isStepEnabled){
+            homePage.planPaymentDoneHelpNo.click();
+        }
+
+        if(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateThankyouMessageDisplay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_ENTER_EMI_MESSAGE.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateEnterEMIMessageDisplay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateStartConversation(homePage);
+        }
+
+        if(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name().equals(stepName) && isStepEnabled){
+            homePage.startConversationInput.sendKeys("120" + Keys.ENTER);
+        }
+
+        if(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name().equals(stepName) && isStepEnabled){
+            homePage.startConversationInput.sendKeys("50" + Keys.ENTER);
+        }
+
+        if(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateMinimumMonthlyPaymentCardDisplay(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES.name().equals(stepName) && isStepEnabled){
+            homePage.minimumMonthlyPaymentYes.click();
+        }
+
+        if(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name().equals(stepName) && isStepEnabled){
+            validationHelper.validateReminderMessageDisplay(homePage);
+        }
+    }
 }
