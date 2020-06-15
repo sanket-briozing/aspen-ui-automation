@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.briozing.automation.suites.CheckBalanceTest" time="123.592" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.briozing.automation.suites.CheckBalanceTest" time="209.792" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire/surefirebooter1540337570835030031.jar /home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire 2020-06-12T23-13-25_008-jvmRun1 surefire6713280457675685339tmp surefire_03144575511314335939tmp"/>
+    <property name="sun.java.command" value="/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire/surefirebooter8323313048827254653.jar /home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire 2020-06-15T19-02-16_576-jvmRun1 surefire5133858558985894059tmp surefire_0833841224716165049tmp"/>
     <property name="surefire.test.class.path" value="/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/test-classes:/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/classes:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-java/3.9.1/selenium-java-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.9.1/selenium-chrome-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.9.1/selenium-edge-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.9.1/selenium-firefox-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.9.1/selenium-ie-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.9.1/selenium-opera-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.9.1/selenium-remote-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.9.1/selenium-safari-driver-3.9.1.jar:/home/sanket/.m2/repository/org/seleniumhq/selenium/selenium-support/3.9.1/selenium-support-3.9.1.jar:/home/sanket/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/sanket/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/sanket/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/sanket/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sanket/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/sanket/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/sanket/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/sanket/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/sanket/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/sanket/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/sanket/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/sanket/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/sanket/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/sanket/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/sanket/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/sanket/.m2/repository/com/aventstack/extentreports-testng-adapter/1.0.3/extentreports-testng-adapter-1.0.3.jar:/home/sanket/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar:/home/sanket/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/sanket/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/sanket/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/sanket/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/sanket/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/sanket/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/home/sanket/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/sanket/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/sanket/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/sanket/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/home/sanket/.m2/repository/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar:/home/sanket/.m2/repository/com/browserstack/automate-testassist/1.0.0/automate-testassist-1.0.0.jar:/home/sanket/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/home/sanket/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/sanket/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/sanket"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="envName" value="local"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire/surefirebooter1540337570835030031.jar"/>
+    <property name="surefire.real.class.path" value="/home/sanket/Documents/Workspace/briozing/gitlab/aspen-ui-automation/target/surefire/surefirebooter8323313048827254653.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~19.10-b09"/>
@@ -64,10 +64,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verify_check_balance_1" classname="com.briozing.automation.suites.CheckBalanceTest" time="28.402"/>
-  <testcase name="verify_check_balance_2" classname="com.briozing.automation.suites.CheckBalanceTest" time="20.271"/>
-  <testcase name="verify_check_balance_3" classname="com.briozing.automation.suites.CheckBalanceTest" time="24.378"/>
-  <testcase name="verify_check_balance_4" classname="com.briozing.automation.suites.CheckBalanceTest" time="21.999"/>
-  <testcase name="verify_check_balance_5" classname="com.briozing.automation.suites.CheckBalanceTest" time="14.698"/>
-  <testcase name="verify_check_balance_6" classname="com.briozing.automation.suites.CheckBalanceTest" time="12.372"/>
+  <testcase name="verify_check_balance_1" classname="com.briozing.automation.suites.CheckBalanceTest" time="20.567"/>
+  <testcase name="verify_check_balance_10" classname="com.briozing.automation.suites.CheckBalanceTest" time="12.596"/>
+  <testcase name="verify_check_balance_11" classname="com.briozing.automation.suites.CheckBalanceTest" time="19.834"/>
+  <testcase name="verify_check_balance_12" classname="com.briozing.automation.suites.CheckBalanceTest" time="11.203"/>
+  <testcase name="verify_check_balance_13" classname="com.briozing.automation.suites.CheckBalanceTest" time="17.697"/>
+  <testcase name="verify_check_balance_2" classname="com.briozing.automation.suites.CheckBalanceTest" time="19.757"/>
+  <testcase name="verify_check_balance_3" classname="com.briozing.automation.suites.CheckBalanceTest" time="20.955"/>
+  <testcase name="verify_check_balance_4" classname="com.briozing.automation.suites.CheckBalanceTest" time="18.139"/>
+  <testcase name="verify_check_balance_5" classname="com.briozing.automation.suites.CheckBalanceTest" time="10.464"/>
+  <testcase name="verify_check_balance_6" classname="com.briozing.automation.suites.CheckBalanceTest" time="9.369"/>
+  <testcase name="verify_check_balance_7" classname="com.briozing.automation.suites.CheckBalanceTest" time="18.275"/>
+  <testcase name="verify_check_balance_8" classname="com.briozing.automation.suites.CheckBalanceTest" time="10.755"/>
+  <testcase name="verify_check_balance_9" classname="com.briozing.automation.suites.CheckBalanceTest" time="19.855"/>
 </testsuite>

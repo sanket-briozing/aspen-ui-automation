@@ -151,7 +151,10 @@ public class HomePage {
     public WebElement planPaymentDoneHelpNo;
 
     @FindBy(xpath = "//span[text()='How much would you like to pay each month?']")
-    public WebElement enterEMIMessage;
+    public WebElement enterAmountToPayEachMonth;
+
+    @FindBy(xpath = "//span[text()='How much you would like to pay today?']")
+    public WebElement enterAmountToPayToday;
 
     @FindBy(xpath = "//textarea[@placeholder='Start a conversation']")
     public WebElement startConversationInput;
@@ -167,6 +170,18 @@ public class HomePage {
 
     @FindBy(xpath = "//span[contains(text(),'Please be sure to make your payment on time')]")
     public WebElement reminderMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'a formal repayment is required')]")
+    public WebElement repaymentMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'a formal repayment is required')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Payment Plan ']/parent::button")
+    public WebElement repaymentPaymentPlan;
+
+    @FindBy(xpath = "//span[contains(text(),'a formal repayment is required')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' One-time Payment ']/parent::button")
+    public WebElement repaymentOneTimePayment;
+
+    @FindBy(xpath = "//span[contains(text(),'a formal repayment is required')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Other ']/parent::button")
+    public WebElement repaymentOther;
 
     public void askAspenButtonClick() throws Exception {
         askAspenButton.click();

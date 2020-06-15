@@ -95,8 +95,12 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.thannkYouMessage.isDisplayed(),"Thank you! have a great day message displayed");
     }
 
-    public void validateEnterEMIMessageDisplay(HomePage homePage){
-        AppAssert.assertTrue(homePage.enterEMIMessage.isDisplayed(),"How much would you like to pay each month? message displayed");
+    public void validateEnterAmountToPayEachMonthMessageDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.enterAmountToPayEachMonth.isDisplayed(),"How much would you like to pay each month? message displayed");
+    }
+
+    public void validateEnterAmountToPayTodayMessageDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.enterAmountToPayToday.isDisplayed(),"How much would you like to pay today? message displayed");
     }
 
     public void validateStartConversation(HomePage homePage){
@@ -111,6 +115,13 @@ public class ValidationHelper {
 
     public void validateReminderMessageDisplay(HomePage homePage){
         AppAssert.assertTrue(homePage.reminderMessage.isDisplayed(),"Reminder payment message displayed");
+    }
+
+    public void validateFormalRepaymentCardDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.repaymentMessage.isDisplayed(),"Formal repayment message displayed");
+        AppAssert.assertTrue(homePage.repaymentPaymentPlan.isDisplayed(),"Payment plan button displayed");
+        AppAssert.assertTrue(homePage.repaymentOneTimePayment.isDisplayed(),"One time payment button displayed");
+        AppAssert.assertTrue(homePage.repaymentOther.isDisplayed(),"Other button displayed");
     }
 
     public void fillDetailsAndLogin(HomePage homePage){

@@ -109,7 +109,7 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
-            testSteps.put(TestSteps.VALIDATE_ENTER_EMI_MESSAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name(),true);
@@ -152,7 +152,7 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
-            testSteps.put(TestSteps.VALIDATE_ENTER_EMI_MESSAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
@@ -193,7 +193,7 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
-            testSteps.put(TestSteps.VALIDATE_ENTER_EMI_MESSAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
@@ -230,6 +230,268 @@ public class CheckBalanceTest extends BaseTest {
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
 //            testExecutionHelper.executeTest6(testSteps,homePageObj);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance7"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan yes, plan agreed make payment yes, credit card, pay, can i help you ? - no, thank you")
+    public void verify_check_balance_7() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance8"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan yes, plan agreed make payment no, reminder message")
+    public void verify_check_balance_8() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance9"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes, select credit card, payment done , thank you")
+    public void verify_check_balance_9() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance10"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no , enter amount below 110, make payment no, remminder messege displayed   ")
+    public void verify_check_balance_10() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance11"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no , enter amount above 110, make payment yes, credit card, payment done can i help you - no , thank you")
+    public void verify_check_balance_11() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance12"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no, enter amount above 110, make payment no, reminder message")
+    public void verify_check_balance_12() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "CheckBalance13"}, description = "Verify check balance - pay in full no, setup plan no,formal repayment - one time payment, enter amount below 110, credit card, make payment, payment confirmation message")
+    public void verify_check_balance_13() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_CREDENTIALS_AND_LOGIN.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAY_IN_FULL_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_ONE_TIME_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_TODAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
+            testSteps.put(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj);
         } catch (Exception ex) {
             logger.error(ex.getMessage());

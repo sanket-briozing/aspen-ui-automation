@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
     <line>
       <![CDATA[START TEST : init]]>
@@ -11,10 +11,460 @@
       <![CDATA[START TEST : verify_check_balance_1]]>
     </line>
     <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE]]>
+    </line>
+    <line>
       <![CDATA[END TEST : verify_check_balance_1]]>
     </line>
     <line>
+      <![CDATA[START TEST : verify_check_balance_10]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_10]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_11]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_11]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_12]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_12]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_13]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_ONE_TIME_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_TODAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_13]]>
+    </line>
+    <line>
       <![CDATA[START TEST : verify_check_balance_2]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
     </line>
     <line>
       <![CDATA[END TEST : verify_check_balance_2]]>
@@ -23,10 +473,184 @@
       <![CDATA[START TEST : verify_check_balance_3]]>
     </line>
     <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+    </line>
+    <line>
       <![CDATA[END TEST : verify_check_balance_3]]>
     </line>
     <line>
       <![CDATA[START TEST : verify_check_balance_4]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
     </line>
     <line>
       <![CDATA[END TEST : verify_check_balance_4]]>
@@ -35,13 +659,376 @@
       <![CDATA[START TEST : verify_check_balance_5]]>
     </line>
     <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
       <![CDATA[END TEST : verify_check_balance_5]]>
     </line>
     <line>
       <![CDATA[START TEST : verify_check_balance_6]]>
     </line>
     <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
       <![CDATA[END TEST : verify_check_balance_6]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_7]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_7]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_8]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_8]]>
+    </line>
+    <line>
+      <![CDATA[START TEST : verify_check_balance_9]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+    </line>
+    <line>
+      <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+    </line>
+    <line>
+      <![CDATA[END TEST : verify_check_balance_9]]>
     </line>
     <line>
       <![CDATA[START TEST : closeDriverObjects]]>
@@ -50,87 +1037,1109 @@
       <![CDATA[END TEST : closeDriverObjects]]>
     </line>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="122182" started-at="2020-06-12T17:43:26Z" finished-at="2020-06-12T17:45:29Z">
+  <suite name="Surefire suite" duration-ms="209473" started-at="2020-06-15T13:32:17Z" finished-at="2020-06-15T13:35:46Z">
     <groups>
+      <group name="sanity">
+        <method signature="CheckBalanceTest.verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_1" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_10()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_10" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_11()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_11" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_12()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_12" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_13()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_13" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_2" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_4" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_5" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_6" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_7()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_7" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_8()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_8" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_9()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_9" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- sanity -->
+      <group name="CheckBalance10">
+        <method signature="CheckBalanceTest.verify_check_balance_10()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_10" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance10 -->
+      <group name="CheckBalance1">
+        <method signature="CheckBalanceTest.verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_1" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance1 -->
+      <group name="CheckBalance13">
+        <method signature="CheckBalanceTest.verify_check_balance_13()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_13" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance13 -->
+      <group name="CheckBalance11">
+        <method signature="CheckBalanceTest.verify_check_balance_11()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_11" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance11 -->
+      <group name="CheckBalance3">
+        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance3 -->
+      <group name="CheckBalance12">
+        <method signature="CheckBalanceTest.verify_check_balance_12()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_12" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance12 -->
+      <group name="CheckBalance2">
+        <method signature="CheckBalanceTest.verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_2" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance2 -->
       <group name="CheckBalance5">
-        <method signature="CheckBalanceTest.verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_5" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_5" class="com.briozing.automation.suites.CheckBalanceTest"/>
       </group> <!-- CheckBalance5 -->
       <group name="CheckBalance4">
-        <method signature="CheckBalanceTest.verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_4" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_4" class="com.briozing.automation.suites.CheckBalanceTest"/>
       </group> <!-- CheckBalance4 -->
+      <group name="CheckBalance7">
+        <method signature="CheckBalanceTest.verify_check_balance_7()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_7" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance7 -->
       <group name="CheckBalance6">
-        <method signature="CheckBalanceTest.verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_6" class="com.briozing.automation.suites.CheckBalanceTest"/>
+        <method signature="CheckBalanceTest.verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_6" class="com.briozing.automation.suites.CheckBalanceTest"/>
       </group> <!-- CheckBalance6 -->
-      <group name="sanity">
-        <method signature="CheckBalanceTest.verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_1" class="com.briozing.automation.suites.CheckBalanceTest"/>
-        <method signature="CheckBalanceTest.verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_2" class="com.briozing.automation.suites.CheckBalanceTest"/>
-        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
-        <method signature="CheckBalanceTest.verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_4" class="com.briozing.automation.suites.CheckBalanceTest"/>
-        <method signature="CheckBalanceTest.verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_5" class="com.briozing.automation.suites.CheckBalanceTest"/>
-        <method signature="CheckBalanceTest.verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_6" class="com.briozing.automation.suites.CheckBalanceTest"/>
-      </group> <!-- sanity -->
-      <group name="CheckBalance1">
-        <method signature="CheckBalanceTest.verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_1" class="com.briozing.automation.suites.CheckBalanceTest"/>
-      </group> <!-- CheckBalance1 -->
-      <group name="CheckBalance3">
-        <method signature="CheckBalanceTest.verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" class="com.briozing.automation.suites.CheckBalanceTest"/>
-      </group> <!-- CheckBalance3 -->
-      <group name="CheckBalance2">
-        <method signature="CheckBalanceTest.verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_2" class="com.briozing.automation.suites.CheckBalanceTest"/>
-      </group> <!-- CheckBalance2 -->
+      <group name="CheckBalance9">
+        <method signature="CheckBalanceTest.verify_check_balance_9()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_9" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance9 -->
+      <group name="CheckBalance8">
+        <method signature="CheckBalanceTest.verify_check_balance_8()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_8" class="com.briozing.automation.suites.CheckBalanceTest"/>
+      </group> <!-- CheckBalance8 -->
     </groups>
-    <test name="Surefire test" duration-ms="122182" started-at="2020-06-12T17:43:26Z" finished-at="2020-06-12T17:45:29Z">
+    <test name="Surefire test" duration-ms="209473" started-at="2020-06-15T13:32:17Z" finished-at="2020-06-15T13:35:46Z">
       <class name="com.briozing.automation.suites.CheckBalanceTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="init" is-config="true" duration-ms="94" started-at="2020-06-12T23:13:26Z" finished-at="2020-06-12T23:13:26Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="init" is-config="true" duration-ms="10" started-at="2020-06-15T19:02:17Z" finished-at="2020-06-15T19:02:17Z">
           <reporter-output>
             <line>
               <![CDATA[END TEST : init]]>
             </line>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_1" duration-ms="28405" started-at="2020-06-12T23:13:27Z" description="Verify check balance - pay in full yes, credit card, payment done" finished-at="2020-06-12T23:13:55Z">
+        <test-method status="PASS" signature="verify_check_balance_1()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_1" duration-ms="20565" started-at="2020-06-15T19:02:17Z" description="Verify check balance - pay in full yes, credit card, payment done" finished-at="2020-06-15T19:02:37Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_1]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_1 -->
-        <test-method status="PASS" signature="verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_2" duration-ms="20271" started-at="2020-06-12T23:13:55Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan yes, make payment yes, credit card, payment done, can i help you no, thank you" finished-at="2020-06-12T23:14:15Z">
+        <test-method status="PASS" signature="verify_check_balance_10()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_10" duration-ms="12596" started-at="2020-06-15T19:02:37Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no , enter amount below 110, make payment no, remminder messege displayed   " finished-at="2020-06-15T19:02:50Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_10 -->
+        <test-method status="PASS" signature="verify_check_balance_11()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_11" duration-ms="19833" started-at="2020-06-15T19:02:50Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no , enter amount above 110, make payment yes, credit card, payment done can i help you - no , thank you" finished-at="2020-06-15T19:03:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_11 -->
+        <test-method status="PASS" signature="verify_check_balance_12()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_12" duration-ms="11201" started-at="2020-06-15T19:03:10Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no, enter amount above 110, make payment no, reminder message" finished-at="2020-06-15T19:03:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_12 -->
+        <test-method status="PASS" signature="verify_check_balance_13()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_13" duration-ms="17698" started-at="2020-06-15T19:03:21Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - one time payment, enter amount below 110, credit card, make payment, payment confirmation message" finished-at="2020-06-15T19:03:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_ONE_TIME_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_TODAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_13 -->
+        <test-method status="PASS" signature="verify_check_balance_2()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_2" duration-ms="19755" started-at="2020-06-15T19:03:39Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan yes, make payment yes, credit card, payment done, can i help you no, thank you" finished-at="2020-06-15T19:03:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_2]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_2 -->
-        <test-method status="PASS" signature="verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_3" duration-ms="24377" started-at="2020-06-12T23:14:15Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes,select credit card, payment done , thank you" finished-at="2020-06-12T23:14:40Z">
+        <test-method status="PASS" signature="verify_check_balance_3()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_3" duration-ms="20950" started-at="2020-06-15T19:03:58Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes, select credit card, payment done , thank you" finished-at="2020-06-15T19:04:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_3]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_3 -->
-        <test-method status="PASS" signature="verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_4" duration-ms="21995" started-at="2020-06-12T23:14:40Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount above 110, make payment yes,select credit card, payment done , thank you" finished-at="2020-06-12T23:15:02Z">
+        <test-method status="PASS" signature="verify_check_balance_4()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_4" duration-ms="18139" started-at="2020-06-15T19:04:19Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount above 110, make payment yes,select credit card, payment done , thank you" finished-at="2020-06-15T19:04:37Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_4]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_4 -->
-        <test-method status="PASS" signature="verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_5" duration-ms="14699" started-at="2020-06-12T23:15:02Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount above 110, make payment no, remminder messege displayed" finished-at="2020-06-12T23:15:16Z">
+        <test-method status="PASS" signature="verify_check_balance_5()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_5" duration-ms="10464" started-at="2020-06-15T19:04:37Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan no, enter amount above 110, make payment no, remminder messege displayed" finished-at="2020-06-15T19:04:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_ABOVE_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_5]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_5 -->
-        <test-method status="PASS" signature="verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="verify_check_balance_6" duration-ms="12371" started-at="2020-06-12T23:15:16Z" description="Verify check balance - " finished-at="2020-06-12T23:15:29Z">
+        <test-method status="PASS" signature="verify_check_balance_6()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_6" duration-ms="9366" started-at="2020-06-15T19:04:48Z" description="Verify check balance - pay in full no, setup payment plan yes, recommended plan yes , plan agreed no, remminder messege displayed" finished-at="2020-06-15T19:04:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+            </line>
             <line>
               <![CDATA[END TEST : verify_check_balance_6]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_check_balance_6 -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@29774679]" name="closeDriverObjects" is-config="true" duration-ms="88" started-at="2020-06-12T23:15:29Z" finished-at="2020-06-12T23:15:29Z">
+        <test-method status="PASS" signature="verify_check_balance_7()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_7" duration-ms="18276" started-at="2020-06-15T19:04:57Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan yes, plan agreed make payment yes, credit card, pay, can i help you ? - no, thank you" finished-at="2020-06-15T19:05:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_7 -->
+        <test-method status="PASS" signature="verify_check_balance_8()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_8" duration-ms="10755" started-at="2020-06-15T19:05:15Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan yes, plan agreed make payment no, reminder message" finished-at="2020-06-15T19:05:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_REMINDER_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_8 -->
+        <test-method status="PASS" signature="verify_check_balance_9()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="verify_check_balance_9" duration-ms="19854" started-at="2020-06-15T19:05:26Z" description="Verify check balance - pay in full no, setup plan no,formal repayment - payment plan, recommended plan no, enter amount below 110, set minimum payment yes, make payment yes, select credit card, payment done , thank you" finished-at="2020-06-15T19:05:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Step Name : STEP_LAUNCH_HOME_PAGE]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ASK_ASPEN_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_ASK_ASPEN_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_CHECK_BALANCE_BUTTON_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CHECK_BALANCE_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_LOGIN_FORM_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_CREDENTIALS_AND_LOGIN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAY_IN_FULL_OPTIONS]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAY_IN_FULL_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_FORMAL_REPAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_FORMAL_REPAYMENT_PAYMENT_PLAN]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_RECOMMENDED_PLAN_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_START_CONVERSATION_TEXTBOX]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_ENTER_AMOUNT_BELOW_110]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_MINIMUM_PAYMENT_PLAN_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CREDIT_CARD_BUTTON]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DETAILS_FORM]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_CONFIRM_PAYMENT]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_PAYMENT_DONE_AND_HELP_CARD]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : STEP_CLICK_PAYMENT_DONE_AND_HELP_NO]]>
+            </line>
+            <line>
+              <![CDATA[Test Step Name : VALIDATE_THANK_YOU_MESSAGE]]>
+            </line>
+            <line>
+              <![CDATA[END TEST : verify_check_balance_9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_check_balance_9 -->
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.briozing.automation.suites.CheckBalanceTest@3ffc5af1]" name="closeDriverObjects" is-config="true" duration-ms="92" started-at="2020-06-15T19:05:46Z" finished-at="2020-06-15T19:05:46Z">
           <reporter-output>
             <line>
               <![CDATA[END TEST : closeDriverObjects]]>

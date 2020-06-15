@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.briozing.automation.suites.CheckBalanceTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 123.592 s - in com.briozing.automation.suites.CheckBalanceTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 209.792 s - in com.briozing.automation.suites.CheckBalanceTest
