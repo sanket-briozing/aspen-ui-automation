@@ -39,7 +39,7 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.PaymentModeMessage.isDisplayed(),"Payment mode message displayed");
     }
 
-    public void validatePaymentDetailsFromDisplayed(HomePage homePage) {
+    public void validateCreditCardDetailsFromDisplayed(HomePage homePage) {
         AppAssert.assertTrue(homePage.nameOnCardInput.isDisplayed(),"Input name on card displayed");
         AppAssert.assertTrue(homePage.phoneNumberInput.isDisplayed(),"Input phone number displayed");
         AppAssert.assertTrue(homePage.amountInput.isDisplayed(),"Input amount displayed");
@@ -56,8 +56,27 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
     }
 
-    public void validatePaymentConfirmationPopupDisplay(HomePage homePage){
-        AppAssert.assertTrue(homePage.paymentConfirmationMessageHeading.isDisplayed(),"Payment confirmation message heading displayed");
+    public void validateACHDetailsFromDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.ACHPayerNameInput.isDisplayed(),"Input Payer name displayed");
+        AppAssert.assertTrue(homePage.ACHPhoneNumberInput.isDisplayed(),"Input phone number displayed");
+        AppAssert.assertTrue(homePage.ACHAmountInput.isDisplayed(),"Input amount displayed");
+        AppAssert.assertTrue(homePage.ACHNameOnCheckInput.isDisplayed(),"Input name on check displayed");
+        AppAssert.assertTrue(homePage.ACHBankNameInput.isDisplayed(),"Input bank name displayed");
+        AppAssert.assertTrue(homePage.ACHBankRoutingNumberInput.isDisplayed(),"Input bank routing number displayed");
+        AppAssert.assertTrue(homePage.ACHBankAccountNumberInput.isDisplayed(),"Input bank account number displayed");
+        AppAssert.assertTrue(homePage.ACHBankCheckNumberInput.isDisplayed(),"Input bank check number displayed");
+        AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
+    }
+
+    public void validateCreditCardPaymentConfirmationPopupDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.CreditCardPaymentConfirmationMessageHeading.isDisplayed(),"Credit card Payment confirmation message heading displayed");
+        AppAssert.assertTrue(homePage.paymentConfirmationMessage.isDisplayed(),"Payment confirmation message displayed");
+        AppAssert.assertTrue(homePage.confirmPaymentButton.isDisplayed(),"confirm button displayed");
+        AppAssert.assertTrue(homePage.cancelPaymentButton.isDisplayed(),"cancel button displayed");
+    }
+
+    public void validateACHPaymentConfirmationPopupDisplay(HomePage homePage){
+        AppAssert.assertTrue(homePage.ACHPaymentConfirmationMessageHeading.isDisplayed(),"ACH Payment confirmation message heading displayed");
         AppAssert.assertTrue(homePage.paymentConfirmationMessage.isDisplayed(),"Payment confirmation message displayed");
         AppAssert.assertTrue(homePage.confirmPaymentButton.isDisplayed(),"confirm button displayed");
         AppAssert.assertTrue(homePage.cancelPaymentButton.isDisplayed(),"cancel button displayed");
@@ -131,7 +150,7 @@ public class ValidationHelper {
         commonMethods.pause(2000);
     }
 
-    public void fillPaymentDetailsAndPay(HomePage homePage){
+    public void fillCreditCardDetailsAndPay(HomePage homePage){
         homePage.nameOnCardInput.sendKeys("Jane Doe");
         homePage.phoneNumberInput.sendKeys("303-296-3599");
         homePage.cardNumberInput.sendKeys("4293 1891 0000 0008");
@@ -143,6 +162,18 @@ public class ValidationHelper {
         homePage.stateInput.sendKeys("CO");
         homePage.zipCodeInput.sendKeys("80401");
         homePage.countryInput.sendKeys("US");
+        homePage.payButton.click();
+        commonMethods.pause(2000);
+    }
+
+    public void fillACHDetailsAndPay(HomePage homePage){
+        homePage.ACHPayerNameInput.sendKeys("Jane Doe");
+        homePage.ACHPhoneNumberInput.sendKeys("303-296-3599");
+        homePage.ACHNameOnCheckInput.sendKeys("Jane Doe");
+        homePage.ACHBankNameInput.sendKeys("Bank Of HON");
+        homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
+        homePage.ACHBankAccountNumberInput.sendKeys("000123456789");
+        homePage.ACHBankCheckNumberInput.sendKeys("1001");
         homePage.payButton.click();
         commonMethods.pause(2000);
     }

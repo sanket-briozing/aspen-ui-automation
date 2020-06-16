@@ -54,6 +54,9 @@ public class HomePage {
     @FindBy(xpath = "//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Credit Card ']/parent::button")
     public WebElement creditCardButton;
 
+    @FindBy(xpath = "//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' ACH ']/parent::button")
+    public WebElement ACHButton;
+
     @FindBy(xpath = "//app-payment-by-credit-card-form-intent/form//input[@placeholder='Name on card']")
     public WebElement nameOnCardInput;
 
@@ -96,8 +99,35 @@ public class HomePage {
     @FindBy(xpath = "//button/span[text()='Pay']")
     public WebElement payButton;
 
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Payer name']")
+    public WebElement ACHPayerNameInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Phone Number']")
+    public WebElement ACHPhoneNumberInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Amount($)']")
+    public WebElement ACHAmountInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Name on check']")
+    public WebElement ACHNameOnCheckInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Bank name']")
+    public WebElement ACHBankNameInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Bank routing number']")
+    public WebElement ACHBankRoutingNumberInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Bank account number']")
+    public WebElement ACHBankAccountNumberInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Bank check number']")
+    public WebElement ACHBankCheckNumberInput;
+
     @FindBy(xpath = "//app-confirmation-dialog//div[text()='Credit Card Payment Confirmation']")
-    public WebElement paymentConfirmationMessageHeading;
+    public WebElement CreditCardPaymentConfirmationMessageHeading;
+
+    @FindBy(xpath = "//app-confirmation-dialog//div[text()='ACH Payment Confirmation']")
+    public WebElement ACHPaymentConfirmationMessageHeading;
 
     @FindBy(xpath = "//app-confirmation-dialog//div[text()='Are you sure you want to make a payment?']")
     public WebElement paymentConfirmationMessage;

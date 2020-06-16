@@ -93,19 +93,39 @@ public class TestExecutionHelper {
             homePage.creditCardButton.click();
         }
 
-        if(TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
-            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_DETAILS_FORM.name());
-            validationHelper.validatePaymentDetailsFromDisplayed(homePage);
+        if(TestSteps.STEP_CLICK_ACH_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_ACH_BUTTON.name());
+            homePage.ACHButton.click();
         }
 
-        if(TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
-            MainUtils.stepLog(logger, TestSteps.STEP_FILL_PAYMENT_DETAILS_AND_CLICK_PAY.name());
-            validationHelper.fillPaymentDetailsAndPay(homePage);
+        if(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name());
+            validationHelper.validateCreditCardDetailsFromDisplayed(homePage);
         }
 
-        if(TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name().equals(stepName) && isStepEnabled){
-            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name());
-            validationHelper.validatePaymentConfirmationPopupDisplay(homePage);
+        if(TestSteps.VALIDATE_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ACH_DETAILS_FORM.name());
+            validationHelper.validateACHDetailsFromDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name());
+            validationHelper.fillCreditCardDetailsAndPay(homePage);
+        }
+
+        if(TestSteps.STEP_FILL_ACH_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_FILL_ACH_DETAILS_AND_CLICK_PAY.name());
+            validationHelper.fillACHDetailsAndPay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name());
+            validationHelper.validateCreditCardPaymentConfirmationPopupDisplay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_ACH_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ACH_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name());
+            validationHelper.validateACHPaymentConfirmationPopupDisplay(homePage);
         }
 
         if(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name().equals(stepName) && isStepEnabled){
