@@ -72,6 +72,12 @@ public class HomePage {
     @FindBy(xpath = "//span[contains(text(),'Would you like to use a credit card/ACH for payment?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' ACH ']/parent::button")
     public WebElement ACHButton;
 
+    @FindBy(xpath = "//app-payment-by-credit-card-form-intent/form//input[@placeholder='Patient Name']")
+    public WebElement patientNameInput;
+
+    @FindBy(xpath = "//app-payment-by-credit-card-form-intent/form//input[@placeholder='Account Number']")
+    public WebElement accountNumberInput;
+
     @FindBy(xpath = "//app-payment-by-credit-card-form-intent/form//input[@placeholder='Name on card']")
     public WebElement nameOnCardInput;
 
@@ -113,6 +119,12 @@ public class HomePage {
 
     @FindBy(xpath = "//button/span[text()='Pay']")
     public WebElement payButton;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Patient Name']")
+    public WebElement ACHPatientNameInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Account Number']")
+    public WebElement ACHAccountNumberInput;
 
     @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Payer name']")
     public WebElement ACHPayerNameInput;

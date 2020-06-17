@@ -73,6 +73,11 @@ public class TestExecutionHelper {
             homePage.paymentOptionsLoginButton.click();
         }
 
+        if(TestSteps.STEP_CLICK_PAYMENT_OPTIONS_EXPRESS_PAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PAYMENT_OPTIONS_EXPRESS_PAY.name());
+            homePage.paymentOptionsExpressPayButton.click();
+        }
+
         if(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name());
             validationHelper.validateLoginFormDisplayed(homePage);
@@ -123,9 +128,19 @@ public class TestExecutionHelper {
             validationHelper.validateCreditCardDetailsFromDisplayed(homePage);
         }
 
+        if(TestSteps.VALIDATE_EXPRESS_PAY_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_EXPRESS_PAY_CREDIT_CARD_DETAILS_FORM.name());
+            validationHelper.validateExpressPayCreditCardDetailsFromDisplayed(homePage);
+        }
+
         if(TestSteps.VALIDATE_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_ACH_DETAILS_FORM.name());
             validationHelper.validateACHDetailsFromDisplayed(homePage);
+        }
+
+        if(TestSteps.VALIDATE_EXPRESS_PAY_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_EXPRESS_PAY_ACH_DETAILS_FORM.name());
+            validationHelper.validateExpressPayACHDetailsFromDisplayed(homePage);
         }
 
         if(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
@@ -133,9 +148,19 @@ public class TestExecutionHelper {
             validationHelper.fillCreditCardDetailsAndPay(homePage);
         }
 
+        if(TestSteps.STEP_FILL_EXPRESS_PAY_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_FILL_EXPRESS_PAY_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name());
+            validationHelper.fillExpressPayCreditCardDetailsAndPay(homePage);
+        }
+
         if(TestSteps.STEP_FILL_ACH_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_FILL_ACH_DETAILS_AND_CLICK_PAY.name());
             validationHelper.fillACHDetailsAndPay(homePage);
+        }
+
+        if(TestSteps.STEP_FILL_EXPRESS_PAY_ACH_DETAILS_AND_CLICK_PAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_FILL_EXPRESS_PAY_ACH_DETAILS_AND_CLICK_PAY.name());
+            validationHelper.fillExpressPayACHDetailsAndPay(homePage);
         }
 
         if(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name().equals(stepName) && isStepEnabled){

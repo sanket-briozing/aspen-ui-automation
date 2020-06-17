@@ -67,7 +67,40 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
     }
 
+    public void validateExpressPayCreditCardDetailsFromDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.patientNameInput.isDisplayed(),"Input patient name displayed");
+        AppAssert.assertTrue(homePage.accountNumberInput.isDisplayed(),"Input account number displayed");
+        AppAssert.assertTrue(homePage.nameOnCardInput.isDisplayed(),"Input name on card displayed");
+        AppAssert.assertTrue(homePage.phoneNumberInput.isDisplayed(),"Input phone number displayed");
+        AppAssert.assertTrue(homePage.amountInput.isDisplayed(),"Input amount displayed");
+        AppAssert.assertTrue(homePage.cardNumberInput.isDisplayed(),"Input card number displayed");
+        AppAssert.assertTrue(homePage.cardTypeInput.isDisplayed(),"Input card type displayed");
+        AppAssert.assertTrue(homePage.cvcInput.isDisplayed(),"Input cvc displayed");
+        AppAssert.assertTrue(homePage.cardExpiryInput.isDisplayed(),"Input card expiry displayed");
+        AppAssert.assertTrue(homePage.addressline1Input.isDisplayed(),"Input addressline 1 displayed");
+        AppAssert.assertTrue(homePage.addressline2Input.isDisplayed(),"Input addressline 2 displayed");
+        AppAssert.assertTrue(homePage.cityInput.isDisplayed(),"Input city displayed");
+        AppAssert.assertTrue(homePage.stateInput.isDisplayed(),"Input state displayed");
+        AppAssert.assertTrue(homePage.zipCodeInput.isDisplayed(),"Input zipcode displayed");
+        AppAssert.assertTrue(homePage.countryInput.isDisplayed(),"Input country displayed");
+        AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
+    }
+
     public void validateACHDetailsFromDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.ACHPayerNameInput.isDisplayed(),"Input Payer name displayed");
+        AppAssert.assertTrue(homePage.ACHPhoneNumberInput.isDisplayed(),"Input phone number displayed");
+        AppAssert.assertTrue(homePage.ACHAmountInput.isDisplayed(),"Input amount displayed");
+        AppAssert.assertTrue(homePage.ACHNameOnCheckInput.isDisplayed(),"Input name on check displayed");
+        AppAssert.assertTrue(homePage.ACHBankNameInput.isDisplayed(),"Input bank name displayed");
+        AppAssert.assertTrue(homePage.ACHBankRoutingNumberInput.isDisplayed(),"Input bank routing number displayed");
+        AppAssert.assertTrue(homePage.ACHBankAccountNumberInput.isDisplayed(),"Input bank account number displayed");
+        AppAssert.assertTrue(homePage.ACHBankCheckNumberInput.isDisplayed(),"Input bank check number displayed");
+        AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
+    }
+
+    public void validateExpressPayACHDetailsFromDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.ACHPatientNameInput.isDisplayed(),"Input Patient name displayed");
+        AppAssert.assertTrue(homePage.ACHAccountNumberInput.isDisplayed(),"Input account number displayed");
         AppAssert.assertTrue(homePage.ACHPayerNameInput.isDisplayed(),"Input Payer name displayed");
         AppAssert.assertTrue(homePage.ACHPhoneNumberInput.isDisplayed(),"Input phone number displayed");
         AppAssert.assertTrue(homePage.ACHAmountInput.isDisplayed(),"Input amount displayed");
@@ -177,9 +210,43 @@ public class ValidationHelper {
         commonMethods.pause(2000);
     }
 
+    public void fillExpressPayCreditCardDetailsAndPay(HomePage homePage){
+        homePage.patientNameInput.sendKeys("Jane Doe");
+        homePage.accountNumberInput.sendKeys("Test001");
+        homePage.nameOnCardInput.sendKeys("Jane Doe");
+        homePage.phoneNumberInput.sendKeys("303-296-3599");
+        homePage.amountInput.sendKeys("900");
+        homePage.cardNumberInput.sendKeys("4293 1891 0000 0008");
+        homePage.cvcInput.sendKeys("123");
+        homePage.cardExpiryInput.sendKeys("09-2020");
+        homePage.addressline1Input.sendKeys("1597 COLE BLVD");
+        homePage.addressline2Input.sendKeys("STE 150");
+        homePage.cityInput.sendKeys("Lakewood");
+        homePage.stateInput.sendKeys("CO");
+        homePage.zipCodeInput.sendKeys("80401");
+        homePage.countryInput.sendKeys("US");
+        homePage.payButton.click();
+        commonMethods.pause(2000);
+    }
+
     public void fillACHDetailsAndPay(HomePage homePage){
         homePage.ACHPayerNameInput.sendKeys("Jane Doe");
         homePage.ACHPhoneNumberInput.sendKeys("303-296-3599");
+        homePage.ACHNameOnCheckInput.sendKeys("Jane Doe");
+        homePage.ACHBankNameInput.sendKeys("Bank Of HON");
+        homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
+        homePage.ACHBankAccountNumberInput.sendKeys("000123456789");
+        homePage.ACHBankCheckNumberInput.sendKeys("1001");
+        homePage.payButton.click();
+        commonMethods.pause(2000);
+    }
+
+    public void fillExpressPayACHDetailsAndPay(HomePage homePage){
+        homePage.ACHPatientNameInput.sendKeys("Jane Doe");
+        homePage.ACHAccountNumberInput.sendKeys("Test001");
+        homePage.ACHPayerNameInput.sendKeys("Jane Doe");
+        homePage.ACHPhoneNumberInput.sendKeys("303-296-3599");
+        homePage.ACHAmountInput.sendKeys("900");
         homePage.ACHNameOnCheckInput.sendKeys("Jane Doe");
         homePage.ACHBankNameInput.sendKeys("Bank Of HON");
         homePage.ACHBankRoutingNumberInput.sendKeys("110000000");

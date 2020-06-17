@@ -842,4 +842,56 @@ public class MakeAPaymentTest extends BaseTest {
             AppAssert.assertTrue(false, ex.getMessage());
         }
     }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "MakeAPayment22", "ExpressPay"}, description = "Verify make a payment - payment option - Express pay, credit card, payment confirmation message")
+    public void verify_make_a_payment_22() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_MAKE_A_PAYMENT_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_MAKE_A_PAYMENT_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_OPTIONS_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAYMENT_OPTIONS_EXPRESS_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_EXPRESS_PAY_CREDIT_CARD_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_EXPRESS_PAY_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
+
+    @Test(groups = {TestConstants.TEST_GROUP_SANITY, "MakeAPayment23","ExpressPay"}, description = "Verify make a payment - payment option - Express pay, ACH, payment confirmation message")
+    public void verify_make_a_payment_23() {
+        try {
+            HomePage homePageObj = new HomePage();
+            Map<String,Boolean> testSteps= new LinkedHashMap<>();
+            testSteps.put(TestSteps.STEP_LAUNCH_HOME_PAGE.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ASK_ASPEN_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ASK_ASPEN_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_MAKE_A_PAYMENT_BUTTON_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_MAKE_A_PAYMENT_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_OPTIONS_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_PAYMENT_OPTIONS_EXPRESS_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_ACH_BUTTON.name(),true);
+            testSteps.put(TestSteps.VALIDATE_EXPRESS_PAY_ACH_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.STEP_FILL_EXPRESS_PAY_ACH_DETAILS_AND_CLICK_PAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ACH_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
+            testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
+            testExecutionHelper.executeTest(testSteps,homePageObj);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            AppAssert.assertTrue(false, ex.getMessage());
+        }
+    }
 }
