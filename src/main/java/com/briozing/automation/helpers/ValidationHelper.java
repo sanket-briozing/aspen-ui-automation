@@ -19,6 +19,17 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.checkBalanceButton.isDisplayed(),"Check balance button displayed");
     }
 
+    public void validateMakeAPaymentButtonDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.makeAPaymentButton.isDisplayed(),"Make a Payment button displayed");
+    }
+
+    public void validateAPaymentOptionsCardDisplayed(HomePage homePage) {
+        AppAssert.assertTrue(homePage.paymentOptionsMessege.isDisplayed(),"Payment options messege displayed displayed");
+        AppAssert.assertTrue(homePage.paymentOptionsLoginButton.isDisplayed(),"Payment options login button displayed");
+        AppAssert.assertTrue(homePage.paymentOptionsExpressPayButton.isDisplayed(),"Payment options Express Pay button displayed");
+        AppAssert.assertTrue(homePage.paymentOptionsContinueAsGuestButton.isDisplayed(),"Payment options Continue as Guest button displayed");
+    }
+
     public void validateLoginFormDisplayed(HomePage homePage) {
         AppAssert.assertTrue(homePage.loginFromMessage.isDisplayed(),"Login form message displayed");
         AppAssert.assertTrue(homePage.usernameInput.isDisplayed(),"Input for username displayed");

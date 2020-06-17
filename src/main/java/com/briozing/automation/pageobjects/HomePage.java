@@ -27,7 +27,22 @@ public class HomePage {
     @FindBy(xpath = "//button[@class='mat-primary form-button mat-flat-button mat-button-base']/child::span[text()=' Check Balance ']")
     public WebElement checkBalanceButton;
 
-    @FindBy(xpath = "//span[contains(text(),'Please login with your username and password')]")
+    @FindBy(xpath = "//span[text()=' Make a Payment ']/parent::button")
+    public WebElement makeAPaymentButton;
+
+    @FindBy(xpath = "//span[contains(text(),'How would you like to continue?')]")
+    public WebElement paymentOptionsMessege;
+
+    @FindBy(xpath = "//span[contains(text(),'How would you like to continue?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Login ']/parent::button")
+    public WebElement paymentOptionsLoginButton;
+
+    @FindBy(xpath = "//span[contains(text(),'How would you like to continue?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Express Pay ']/parent::button")
+    public WebElement paymentOptionsExpressPayButton;
+
+    @FindBy(xpath = "//span[contains(text(),'How would you like to continue?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Continue as Guest ']/parent::button")
+    public WebElement paymentOptionsContinueAsGuestButton;
+
+    @FindBy(xpath = "//app-login-form-intent/app-message-bar//span")
     public WebElement loginFromMessage;
 
     @FindBy(xpath = "//input[@placeholder='Username']")
@@ -39,7 +54,7 @@ public class HomePage {
     @FindBy(xpath = "//button[@class='mat-primary form-button mat-flat-button mat-button-base']/span[text()='Login']")
     public WebElement loginButton;
 
-    @FindBy(xpath = "//span[text()='You have a total outstanding balance of $946.00. Would you like to pay in full?']")
+    @FindBy(xpath = "//span[contains(text(),'You have a total outstanding balance ')]")
     public WebElement totalBalanceMessage;
 
     @FindBy(xpath = "//span[contains(text(),'Would you like to pay in full?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Yes ']/parent::button")

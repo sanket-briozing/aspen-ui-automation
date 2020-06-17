@@ -48,9 +48,29 @@ public class TestExecutionHelper {
             validationHelper.validateCheckBalanceButtonDisplayed(homePage);
         }
 
+        if(TestSteps.VALIDATE_MAKE_A_PAYMENT_BUTTON_DISPLAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_MAKE_A_PAYMENT_BUTTON_DISPLAY.name());
+            validationHelper.validateMakeAPaymentButtonDisplayed(homePage);
+        }
+
         if(TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_CLICK_CHECK_BALANCE_BUTTON.name());
             homePage.checkBalanceButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_MAKE_A_PAYMENT_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_MAKE_A_PAYMENT_BUTTON.name());
+            homePage.makeAPaymentButton.click();
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_OPTIONS_CARD_DISPLAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_OPTIONS_CARD_DISPLAY.name());
+            validationHelper.validateAPaymentOptionsCardDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_PAYMENT_OPTIONS_LOGIN.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PAYMENT_OPTIONS_LOGIN.name());
+            homePage.paymentOptionsLoginButton.click();
         }
 
         if(TestSteps.VALIDATE_LOGIN_FORM_DISPLAY.name().equals(stepName) && isStepEnabled){
