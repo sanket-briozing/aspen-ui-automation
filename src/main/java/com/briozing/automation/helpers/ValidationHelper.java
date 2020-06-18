@@ -6,6 +6,8 @@ import com.briozing.automation.utilities.AppAssert;
 import com.briozing.automation.utilities.CommonMethods;
 import org.apache.log4j.Logger;
 
+import static jdk.nashorn.internal.objects.NativeMath.round;
+
 public class ValidationHelper {
 
     Logger logger = Log4JFactory.getLogger(this.getClass().getSimpleName());
@@ -37,8 +39,11 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.loginButton.isDisplayed(),"Login button displayed");
     }
 
-    public void validateTotalOutstandingBalanceMessageDisplayed(HomePage homePage) {
+    public void validateTotalOutstandingBalanceMessageDisplayed(HomePage homePage, String expectedOutstandingBalance) {
         AppAssert.assertTrue(homePage.totalBalanceMessage.isDisplayed(),"Total outstanding balance message displayed");
+        String str=homePage.totalBalanceMessage.getText();
+        String actualOutstandingBalance = str.substring(str.lastIndexOf("of $")+4,str.lastIndexOf("."));
+        AppAssert.assertEqual(actualOutstandingBalance,expectedOutstandingBalance,"Outstanding Balance ");
     }
 
     public void validatePayInFullOptionButtonsDisplayed(HomePage homePage) {
@@ -65,6 +70,18 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.zipCodeInput.isDisplayed(),"Input zipcode displayed");
         AppAssert.assertTrue(homePage.countryInput.isDisplayed(),"Input country displayed");
         AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
+    }
+
+    public void validateAgreedPlanAmountPopulatedInCreditCardDetailsFrom(HomePage homePage){
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String agreedPlanAmount= strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),agreedPlanAmount,"populated amount in credit card details form ");
+    }
+
+    public void validateFullAmountPopulatedInCreditCardDetailsForm(HomePage homePage){
+        String str=homePage.totalBalanceMessage.getText();
+        String actualOutstandingBalance = str.substring(str.lastIndexOf("of $")+4,str.lastIndexOf(".")-3);
+        AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),actualOutstandingBalance,"populated amount in credit card details form ");
     }
 
     public void validateExpressPayCreditCardDetailsFromDisplayed(HomePage homePage) {
@@ -128,6 +145,9 @@ public class ValidationHelper {
 
     public void validatePaymentDoneConfirmationMessage(HomePage homePage){
         AppAssert.assertTrue(homePage.paymentDoneMessage.isDisplayed(),"Payment done and confirmation number displayed");
+        String strMessage = homePage.paymentDoneMessage.getText();
+        String confirmationNumber = strMessage.substring(strMessage.lastIndexOf("number is ")+10,strMessage.lastIndexOf(". Payment"));
+        AppAssert.assertEqual(confirmationNumber,"123456","Confirmation Number ");
     }
 
     public void validateSetupPaymentPlanTodayCardDisplay(HomePage homePage){
@@ -142,10 +162,63 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.recommendedPlanNo.isDisplayed(),"No button displayed");
     }
 
-    public void planAgreedMakePaymentCardDisplay(HomePage homePage){
+    public void validateTotalBalanceEqualsOutstandingAndRecommendedPlanData(HomePage homePage){
+        String strRecommended=homePage.recommendedPlanMessage.getText();
+        String totalBalance =strRecommended.substring(strRecommended.lastIndexOf("of $")+4,strRecommended.lastIndexOf(", the"));
+        String outstanding=homePage.totalBalanceMessage.getText();
+        String outstandingBalance = outstanding.substring(outstanding.lastIndexOf("of $")+4,outstanding.lastIndexOf("."));
+        String recommendedPlanAmount= strRecommended.substring(strRecommended.lastIndexOf("is $")+4,strRecommended.lastIndexOf("/month"));
+        String recommendedPlanDuration= strRecommended.substring(strRecommended.lastIndexOf("/month for ")+11,strRecommended.lastIndexOf(" months"));
+        AppAssert.assertEqual(totalBalance,outstandingBalance,"Recommended plan total balance: ");
+        AppAssert.assertEqual(recommendedPlanAmount,"160","Recommended plan amount: ");
+        AppAssert.assertEqual(recommendedPlanDuration,"6","Recommended plan duration: ");
+    }
+
+    public void validatePlanAgreedMakePaymentCardDisplay(HomePage homePage){
         AppAssert.assertTrue(homePage.planAgreedMakePaymentMessage.isDisplayed(),"Plan agreed make 1st payment message displayed");
         AppAssert.assertTrue(homePage.planAgreedMakePaymentYes.isDisplayed(),"Plan agreed Yes button displayed");
         AppAssert.assertTrue(homePage.planAgreedMakePaymentNo.isDisplayed(),"Plan agreed No button displayed");
+    }
+
+    public void validateEnteredAmountEqualsAgreedPlanData(HomePage homePage){
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String agreedPlanAmount =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        String agreedPlanDuration =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("for ")+4,strPlanAgreedMessage.lastIndexOf(" months"));
+        int agreedPlanDurationInt=Integer.parseInt(agreedPlanDuration);
+        String enteredAmount=homePage.enteredAmount.getText();
+        int enteredAmountInt=Integer.parseInt(enteredAmount);
+        String outstandingBalanceMessage=homePage.totalBalanceMessage.getText();
+        int outstandingBalance = Integer.parseInt(outstandingBalanceMessage.substring(outstandingBalanceMessage.lastIndexOf("of $")+4,outstandingBalanceMessage.lastIndexOf(".")-3));
+        float expectedDurationFloat= outstandingBalance/enteredAmountInt;
+        if (expectedDurationFloat<agreedPlanDurationInt){
+            expectedDurationFloat++;
+        }
+        int expectedDurationInt=Math.round(expectedDurationFloat);
+        String expectedDuration=Integer.toString(expectedDurationInt);
+        AppAssert.assertEqual(agreedPlanAmount, enteredAmount,"Agreed plan amount ");
+        AppAssert.assertEqual(agreedPlanDuration, expectedDuration,"Agreed plan duration ");
+    }
+
+    public void validateAgreedPlanDataEqualsMinimumPlanData(HomePage homePage){
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String agreedPlanAmount =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        String agreedPlanDuration =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("for ")+4,strPlanAgreedMessage.lastIndexOf(" months"));
+        String strMinimumPlan=homePage.minimumMonthlyPaymentMessage.getText();
+        String minAmount= strMinimumPlan.substring(strMinimumPlan.lastIndexOf("for $")+5,strMinimumPlan.lastIndexOf("/month"));
+        String minDuration= strMinimumPlan.substring(strMinimumPlan.lastIndexOf("for ")+4,strMinimumPlan.lastIndexOf(" months"));
+        AppAssert.assertEqual(agreedPlanAmount,minAmount,"Agreed plan amount");
+        AppAssert.assertEqual(agreedPlanDuration,minDuration,"Agreed plan duration");
+    }
+
+    public void validateRecommendedPlanDataEqualsAgreedPlanData(HomePage homePage){
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String strRecommended=homePage.recommendedPlanMessage.getText();
+        String agreedPlanAmount= strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        String agreedPlanDuration= strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("/month for ")+11,strPlanAgreedMessage.lastIndexOf(" months"));
+        String recommendedPlanAmount= strRecommended.substring(strRecommended.lastIndexOf("is $")+4,strRecommended.lastIndexOf("/month"));
+        String recommendedPlanDuration= strRecommended.substring(strRecommended.lastIndexOf("/month for ")+11,strRecommended.lastIndexOf(" months"));
+        AppAssert.assertEqual(agreedPlanAmount,recommendedPlanAmount,"Agreed plan amount: ");
+        AppAssert.assertEqual(agreedPlanDuration,recommendedPlanDuration,"Agreed plan duration: ");
     }
 
     public void planPaymentDoneAndHelpCardDisplay(HomePage homePage){
@@ -174,6 +247,16 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.minimumMonthlyPaymentMessage.isDisplayed(),"Minimum monthly payment message displayed");
         AppAssert.assertTrue(homePage.minimumMonthlyPaymentYes.isDisplayed(),"Minimum monthly payment yes button displayed");
         AppAssert.assertTrue(homePage.minimumMonthlyPaymentNo.isDisplayed(),"Minimum monthly payment no button displayed");
+    }
+
+    public void validateMinimumPaymentData(HomePage homePage){
+        String strMinimumPlan=homePage.minimumMonthlyPaymentMessage.getText();
+        String minAllowed= strMinimumPlan.substring(strMinimumPlan.lastIndexOf("is $")+4,strMinimumPlan.lastIndexOf(". Would"));
+        String minAmount= strMinimumPlan.substring(strMinimumPlan.lastIndexOf("for $")+5,strMinimumPlan.lastIndexOf("/month"));
+        String minDuration= strMinimumPlan.substring(strMinimumPlan.lastIndexOf("for ")+4,strMinimumPlan.lastIndexOf(" months"));
+        AppAssert.assertEqual(minAllowed,"110","minimum monthly payment allowed ");
+        AppAssert.assertEqual(minAmount,"110","plan amount ");
+        AppAssert.assertEqual(minDuration,"9","plan duration ");
     }
 
     public void validateReminderMessageDisplay(HomePage homePage){

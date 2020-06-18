@@ -54,7 +54,7 @@ public class HomePage {
     @FindBy(xpath = "//button[@class='mat-primary form-button mat-flat-button mat-button-base']/span[text()='Login']")
     public WebElement loginButton;
 
-    @FindBy(xpath = "//span[contains(text(),'You have a total outstanding balance ')]")
+    @FindBy(xpath = "//span[contains(text(),'You have a total outstanding balance')]")
     public WebElement totalBalanceMessage;
 
     @FindBy(xpath = "//span[contains(text(),'Would you like to pay in full?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Yes ']/parent::button")
@@ -209,6 +209,9 @@ public class HomePage {
 
     @FindBy(xpath = "//span[text()='How much would you like to pay each month?']")
     public WebElement enterAmountToPayEachMonth;
+
+    @FindBy(xpath = "//span[text()='How much would you like to pay each month?']/ancestor::div[@class='ng-star-inserted'][2]/following-sibling::div[1]//app-message-bar//span")
+    public WebElement enteredAmount;
 
     @FindBy(xpath = "//span[text()='How much you would like to pay today?']")
     public WebElement enterAmountToPayToday;

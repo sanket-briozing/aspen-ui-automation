@@ -17,11 +17,13 @@ public class TestExecutionHelper {
     ValidationHelper validationHelper = new ValidationHelper();
     CommonMethods commonMethods = new CommonMethods();
 
-    public void executeTest(Map<String ,Boolean> testSteps, final HomePage homePage){
-        testSteps.forEach((key,value)->{executeStep(key,value,homePage);});
+    public static int getRandomNumber(int maximum, int minimum){ return ((int) (Math.random()*(maximum - minimum))) + minimum; }
+
+    public void executeTest(Map<String ,Boolean> testSteps, final HomePage homePage, String expectedOutstandingBalance){
+        testSteps.forEach((key,value)->{executeStep(key,value,homePage,expectedOutstandingBalance);});
     }
 
-    public void executeStep(String stepName, Boolean isStepEnabled, HomePage homePage){
+    public void executeStep(String stepName, Boolean isStepEnabled, HomePage homePage, String expectedOutstandingBalance){
         if(TestSteps.STEP_LAUNCH_HOME_PAGE.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_LAUNCH_HOME_PAGE.name());
             try{
@@ -90,7 +92,7 @@ public class TestExecutionHelper {
 
         if(TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_TOTAL_OUTSTANDING_BALANCE_MESSAGE_DISPLAY.name());
-            validationHelper.validateTotalOutstandingBalanceMessageDisplayed(homePage);
+            validationHelper.validateTotalOutstandingBalanceMessageDisplayed(homePage,expectedOutstandingBalance);
         }
 
         if(TestSteps.VALIDATE_PAY_IN_FULL_OPTIONS.name().equals(stepName) && isStepEnabled){
@@ -126,6 +128,16 @@ public class TestExecutionHelper {
         if(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name());
             validationHelper.validateCreditCardDetailsFromDisplayed(homePage);
+        }
+
+        if(TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name());
+            validationHelper.validateAgreedPlanAmountPopulatedInCreditCardDetailsFrom(homePage);
+        }
+
+        if(TestSteps.VALIDATE_FULL_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_FULL_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name());
+            validationHelper.validateFullAmountPopulatedInCreditCardDetailsForm(homePage);
         }
 
         if(TestSteps.VALIDATE_EXPRESS_PAY_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
@@ -204,6 +216,11 @@ public class TestExecutionHelper {
             validationHelper.validateRecommendedPlanCardDisplay(homePage);
         }
 
+        if(TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name());
+            validationHelper.validateTotalBalanceEqualsOutstandingAndRecommendedPlanData(homePage);
+        }
+
         if(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name());
             homePage.recommendedPlanYes.click();
@@ -216,7 +233,22 @@ public class TestExecutionHelper {
 
         if(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name());
-            validationHelper.planAgreedMakePaymentCardDisplay(homePage);
+            validationHelper.validatePlanAgreedMakePaymentCardDisplay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name());
+            validationHelper.validateEnteredAmountEqualsAgreedPlanData(homePage);
+        }
+
+        if(TestSteps.VALIDATE_AGREED_PLAN_DATA_EQUALS_MINIMUM_PLAN_DATA.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_AGREED_PLAN_DATA_EQUALS_MINIMUM_PLAN_DATA.name());
+            validationHelper.validateAgreedPlanDataEqualsMinimumPlanData(homePage);
+        }
+
+        if(TestSteps.VALIDATE_RECOMMENDED_PLAN_DATA_EQUALS_AGREED_PLAN_DATA.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_RECOMMENDED_PLAN_DATA_EQUALS_AGREED_PLAN_DATA.name());
+            validationHelper.validateRecommendedPlanDataEqualsAgreedPlanData(homePage);
         }
 
         if(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name().equals(stepName) && isStepEnabled){
@@ -261,17 +293,26 @@ public class TestExecutionHelper {
 
         if(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name());
-            homePage.startConversationInput.sendKeys("120" + Keys.ENTER);
+            String numAbove=Integer.toString(getRandomNumber(150, 111));
+            homePage.startConversationInput.sendKeys(numAbove + Keys.ENTER);
+            logger.info("Entered amount above 110 successfully");
         }
 
         if(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name());
-            homePage.startConversationInput.sendKeys("50" + Keys.ENTER);
+            String numBelow=Integer.toString(getRandomNumber(109, 1));
+            homePage.startConversationInput.sendKeys(numBelow + Keys.ENTER);
+            logger.info("Entered amount below 110 successfully");
         }
 
         if(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name());
             validationHelper.validateMinimumMonthlyPaymentCardDisplay(homePage);
+        }
+
+        if(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_DATA.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_DATA.name());
+            validationHelper.validateMinimumPaymentData(homePage);
         }
 
         if(TestSteps.STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES.name().equals(stepName) && isStepEnabled){
