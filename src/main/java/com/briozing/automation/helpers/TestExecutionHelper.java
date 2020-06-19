@@ -238,7 +238,7 @@ public class TestExecutionHelper {
 
         if(TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name());
-            validationHelper.validateEnteredAmountEqualsAgreedPlanData(homePage);
+            validationHelper.validateEnteredAmountToPayEachMonthEqualsAgreedPlanData(homePage);
         }
 
         if(TestSteps.VALIDATE_AGREED_PLAN_DATA_EQUALS_MINIMUM_PLAN_DATA.name().equals(stepName) && isStepEnabled){
@@ -343,6 +343,31 @@ public class TestExecutionHelper {
         if(TestSteps.STEP_CLICK_FORMAL_REPAYMENT_OTHER.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_CLICK_FORMAL_REPAYMENT_OTHER.name());
             homePage.repaymentOther.click();
+        }
+
+        if(TestSteps.STEP_CLICK_CROSS_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_CROSS_BUTTON.name());
+            homePage.crossButton.click();
+        }
+
+        if(TestSteps.VALIDATE_CONFIRMATION_NUMBER_AND_AGREED_PLAN_AMOUNT_AND_DUE_DATE.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_CONFIRMATION_NUMBER_AND_AGREED_PLAN_AMOUNT_AND_DUE_DATE.name());
+            validationHelper.validateConfirmationNumberAmountDueDate(homePage);
+        }
+
+        if(TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name());
+            validationHelper.validateEnteredAmountToPayTodayPopulatedInCreditCardDetailsForm(homePage);
+        }
+
+        if(TestSteps.VALIDATE_FULL_AMOUNT_POPULATED_IN_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_FULL_AMOUNT_POPULATED_IN_ACH_DETAILS_FORM.name());
+            validationHelper.validateFullAmountPopulatedInACHDetailsForm(homePage);
+        }
+
+        if(TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_ACH_DETAILS_FORM.name());
+            validationHelper.validateAgreedPlanAmountPopulatedInACHDetailsForm(homePage);
         }
     }
 }

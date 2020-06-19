@@ -156,13 +156,13 @@ public class HomePage {
     @FindBy(xpath = "//app-confirmation-dialog//div[text()='ACH Payment Confirmation']")
     public WebElement ACHPaymentConfirmationMessageHeading;
 
-    @FindBy(xpath = "//app-confirmation-dialog//div[text()='Are you sure you want to make a payment?']")
+    @FindBy(xpath = "//app-confirmation-dialog//div[contains(text(),'Are you sure you want to make a payment?')]")
     public WebElement paymentConfirmationMessage;
 
-    @FindBy(xpath = "//div[text()='Are you sure you want to make a payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Confirm ']")
+    @FindBy(xpath = "//div[contains(text(),'Are you sure you want to make a payment?')]/ancestor::app-confirmation-dialog//button/span[contains(text(),'Confirm')]")
     public WebElement confirmPaymentButton;
 
-    @FindBy(xpath = "//div[text()='Are you sure you want to make a payment?']/ancestor::app-confirmation-dialog//button/span[text()=' Cancel ']")
+    @FindBy(xpath = "//div[contains(text(),'Are you sure you want to make a payment?')]/ancestor::app-confirmation-dialog//button/span[contains(text(),'Cancel')]")
     public WebElement cancelPaymentButton;
 
     @FindBy(xpath = "//span[contains(text(),'Thanks !! Your payment has been posted and your confirmation number')]")
@@ -211,10 +211,13 @@ public class HomePage {
     public WebElement enterAmountToPayEachMonth;
 
     @FindBy(xpath = "//span[text()='How much would you like to pay each month?']/ancestor::div[@class='ng-star-inserted'][2]/following-sibling::div[1]//app-message-bar//span")
-    public WebElement enteredAmount;
+    public WebElement enteredAmountToPayEachMonth;
 
     @FindBy(xpath = "//span[text()='How much you would like to pay today?']")
     public WebElement enterAmountToPayToday;
+
+    @FindBy(xpath = "//span[text()='How much you would like to pay today?']/ancestor::div[@class='ng-star-inserted'][2]/following-sibling::div[1]//app-message-bar//span")
+    public WebElement enteredAmountToPayToday;
 
     @FindBy(xpath = "//textarea[@placeholder='Start a conversation']")
     public WebElement startConversationInput;
@@ -242,6 +245,9 @@ public class HomePage {
 
     @FindBy(xpath = "//span[contains(text(),'a formal repayment is required')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[text()=' Other ']/parent::button")
     public WebElement repaymentOther;
+
+    @FindBy(xpath = "//span[text()='Aspen']/parent::div/following-sibling::div[2]/img[2]")
+    public WebElement crossButton;
 
     public void askAspenButtonClick() throws Exception {
         askAspenButton.click();

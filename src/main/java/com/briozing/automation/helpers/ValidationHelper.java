@@ -6,6 +6,11 @@ import com.briozing.automation.utilities.AppAssert;
 import com.briozing.automation.utilities.CommonMethods;
 import org.apache.log4j.Logger;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Date;
+
 import static jdk.nashorn.internal.objects.NativeMath.round;
 
 public class ValidationHelper {
@@ -78,10 +83,22 @@ public class ValidationHelper {
         AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),agreedPlanAmount,"populated amount in credit card details form ");
     }
 
+    public void validateAgreedPlanAmountPopulatedInACHDetailsForm(HomePage homePage){
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String agreedPlanAmount= strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        AppAssert.assertEqual(homePage.ACHAmountInput.getAttribute("value"),agreedPlanAmount,"populated amount in ACH details form ");
+    }
+
     public void validateFullAmountPopulatedInCreditCardDetailsForm(HomePage homePage){
         String str=homePage.totalBalanceMessage.getText();
         String actualOutstandingBalance = str.substring(str.lastIndexOf("of $")+4,str.lastIndexOf(".")-3);
         AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),actualOutstandingBalance,"populated amount in credit card details form ");
+    }
+
+    public void validateFullAmountPopulatedInACHDetailsForm(HomePage homePage){
+        String str=homePage.totalBalanceMessage.getText();
+        String actualOutstandingBalance = str.substring(str.lastIndexOf("of $")+4,str.lastIndexOf(".")-3);
+        AppAssert.assertEqual(homePage.ACHAmountInput.getAttribute("value"),actualOutstandingBalance,"populated amount in ACH details form ");
     }
 
     public void validateExpressPayCreditCardDetailsFromDisplayed(HomePage homePage) {
@@ -180,12 +197,12 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.planAgreedMakePaymentNo.isDisplayed(),"Plan agreed No button displayed");
     }
 
-    public void validateEnteredAmountEqualsAgreedPlanData(HomePage homePage){
+    public void validateEnteredAmountToPayEachMonthEqualsAgreedPlanData(HomePage homePage){
         String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
         String agreedPlanAmount =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
         String agreedPlanDuration =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("for ")+4,strPlanAgreedMessage.lastIndexOf(" months"));
         int agreedPlanDurationInt=Integer.parseInt(agreedPlanDuration);
-        String enteredAmount=homePage.enteredAmount.getText();
+        String enteredAmount=homePage.enteredAmountToPayEachMonth.getText();
         int enteredAmountInt=Integer.parseInt(enteredAmount);
         String outstandingBalanceMessage=homePage.totalBalanceMessage.getText();
         int outstandingBalance = Integer.parseInt(outstandingBalanceMessage.substring(outstandingBalanceMessage.lastIndexOf("of $")+4,outstandingBalanceMessage.lastIndexOf(".")-3));
@@ -197,6 +214,11 @@ public class ValidationHelper {
         String expectedDuration=Integer.toString(expectedDurationInt);
         AppAssert.assertEqual(agreedPlanAmount, enteredAmount,"Agreed plan amount ");
         AppAssert.assertEqual(agreedPlanDuration, expectedDuration,"Agreed plan duration ");
+    }
+
+    public void validateEnteredAmountToPayTodayPopulatedInCreditCardDetailsForm(HomePage homePage){
+        String enteredAmount=homePage.enteredAmountToPayToday.getText();
+        AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),enteredAmount,"Populated amount in credit card details form ");
     }
 
     public void validateAgreedPlanDataEqualsMinimumPlanData(HomePage homePage){
@@ -337,5 +359,24 @@ public class ValidationHelper {
         homePage.ACHBankCheckNumberInput.sendKeys("1001");
         homePage.payButton.click();
         commonMethods.pause(2000);
+    }
+
+    public void validateConfirmationNumberAmountDueDate(HomePage homePage){
+        String strMessage = homePage.planPaymentDoneAndHelpMessage.getText();
+        String confirmationNumber = strMessage.substring(strMessage.lastIndexOf("number is ")+10,strMessage.lastIndexOf(". Payment"));
+        String planAmount= strMessage.substring(strMessage.lastIndexOf("of $")+4,strMessage.lastIndexOf(" with the next"));
+        String nextDueDate= strMessage.substring(strMessage.lastIndexOf("date ")+5,strMessage.lastIndexOf(". Let"));
+        String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
+        String agreedPlanAmount= strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+        Date today = new Date();
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(today);
+        cal.add(Calendar.MONTH, 1);
+        Date nextDueDateExp = cal.getTime();
+        String nextDueDateExpected=formatter.format(nextDueDateExp);
+        AppAssert.assertEqual(confirmationNumber,"123456","Confirmation Number ");
+        AppAssert.assertEqual(planAmount,agreedPlanAmount,"Confirmed plan amount ");
+        AppAssert.assertEqual(nextDueDate,nextDueDateExpected,"Next payment due date ");
     }
 }
