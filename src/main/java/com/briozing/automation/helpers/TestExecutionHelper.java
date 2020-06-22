@@ -369,5 +369,10 @@ public class TestExecutionHelper {
             MainUtils.stepLog(logger, TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_ACH_DETAILS_FORM.name());
             validationHelper.validateAgreedPlanAmountPopulatedInACHDetailsForm(homePage);
         }
+
+        if(TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_ACH_DETAILS_FORM.name());
+            validationHelper.validateEnteredAmountToPayTodayPopulatedInACHDetailsForm(homePage);
+        }
     }
 }

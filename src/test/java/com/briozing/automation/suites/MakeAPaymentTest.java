@@ -22,6 +22,13 @@ public class MakeAPaymentTest extends BaseTest {
     Logger logger = Log4JFactory.getLogger(this.getClass().getSimpleName());
     TestExecutionHelper testExecutionHelper=new TestExecutionHelper();
 
+    @DataProvider(name = "outstanding-balance-dp")
+    public Object[][] outstandingBalanceDP() {
+        return new Object[][]{
+                {"946.00"}
+        };
+    }
+
     @Test(groups = {TestConstants.TEST_GROUP_SANITY, "MakeAPayment1","makePayment"}, dataProvider = "outstanding-balance-dp", description = "Verify make a payment - payment option - login, pay in full yes, credit card, payment done")
     public void verify_make_a_payment_1(String expectedOutstandingBalance) {
         try {
@@ -42,10 +49,12 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.VALIDATE_FULL_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name(),true);
             testSteps.put(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
@@ -73,18 +82,23 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_DATA_EQUALS_AGREED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name(),true);
             testSteps.put(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CONFIRMATION_NUMBER_AND_AGREED_PLAN_AMOUNT_AND_DUE_DATE.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
@@ -112,23 +126,29 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_BELOW_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_CARD.name(),true);
+            testSteps.put(TestSteps.VALIDATE_MINIMUM_PAYMENT_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_MINIMUM_PAYMENT_PLAN_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_AGREED_PLAN_DATA_EQUALS_MINIMUM_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name(),true);
             testSteps.put(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
+            testSteps.put(TestSteps.VALIDATE_CONFIRMATION_NUMBER_AND_AGREED_PLAN_AMOUNT_AND_DUE_DATE.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
@@ -156,21 +176,25 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_MODE_MESSAGE_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CREDIT_CARD_BUTTON.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_DETAILS_FORM.name(),true);
+            testSteps.put(TestSteps.VALIDATE_AGREED_PLAN_AMOUNT_POPULATED_IN_CREDIT_CARD_DETAILS_FORM.name(),true);
             testSteps.put(TestSteps.STEP_FILL_CREDIT_CARD_DETAILS_AND_CLICK_PAY.name(),true);
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_AND_HELP_CARD.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PAYMENT_DONE_AND_HELP_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_THANK_YOU_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
@@ -198,13 +222,16 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_SETUP_PAYMENT_PLAN_TODAY_CARD_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_SETUP_PAYMENT_PLAN_TODAY_YES.name(),true);
             testSteps.put(TestSteps.VALIDATE_RECOMMENDED_PLAN_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_TOTAL_BALANCE_EQUALS_OUTSTANDING_AND_RECOMMENDED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_RECOMMENDED_PLAN_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_ENTER_AMOUNT_TO_PAY_EACH_MONTH.name(),true);
             testSteps.put(TestSteps.VALIDATE_START_CONVERSATION_TEXTBOX.name(),true);
             testSteps.put(TestSteps.STEP_ENTER_AMOUNT_ABOVE_110.name(),true);
             testSteps.put(TestSteps.VALIDATE_PLAN_AGREED_MAKE_PAYMENT_CARD_DISPLAY.name(),true);
+            testSteps.put(TestSteps.VALIDATE_ENTERED_AMOUNT_EQUALS_AGREED_PLAN_DATA.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_PLAN_AGREED_MAKE_PAYMENT_NO.name(),true);
             testSteps.put(TestSteps.VALIDATE_REMINDER_MESSAGE_DISPLAY.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());

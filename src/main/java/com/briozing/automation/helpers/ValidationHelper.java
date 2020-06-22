@@ -221,6 +221,11 @@ public class ValidationHelper {
         AppAssert.assertEqual(homePage.amountInput.getAttribute("value"),enteredAmount,"Populated amount in credit card details form ");
     }
 
+    public void validateEnteredAmountToPayTodayPopulatedInACHDetailsForm(HomePage homePage){
+        String enteredAmount=homePage.enteredAmountToPayToday.getText();
+        AppAssert.assertEqual(homePage.ACHAmountInput.getAttribute("value"),enteredAmount,"Populated amount in ACH details form ");
+    }
+
     public void validateAgreedPlanDataEqualsMinimumPlanData(HomePage homePage){
         String strPlanAgreedMessage=homePage.planAgreedMakePaymentMessage.getText();
         String agreedPlanAmount =strPlanAgreedMessage.substring(strPlanAgreedMessage.lastIndexOf("pay $")+5,strPlanAgreedMessage.lastIndexOf("/month"));
@@ -351,7 +356,7 @@ public class ValidationHelper {
         homePage.ACHAccountNumberInput.sendKeys("Test001");
         homePage.ACHPayerNameInput.sendKeys("Jane Doe");
         homePage.ACHPhoneNumberInput.sendKeys("303-296-3599");
-        homePage.ACHAmountInput.sendKeys("900");
+        homePage.ACHAmountInput.sendKeys("10");
         homePage.ACHNameOnCheckInput.sendKeys("Jane Doe");
         homePage.ACHBankNameInput.sendKeys("Bank Of HON");
         homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
