@@ -5,12 +5,14 @@ import com.briozing.automation.pageobjects.HomePage;
 import com.briozing.automation.utilities.AppAssert;
 import com.briozing.automation.utilities.CommonMethods;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 
+import static com.briozing.automation.helpers.TestExecutionHelper.getRandomNumber;
 import static jdk.nashorn.internal.objects.NativeMath.round;
 
 public class ValidationHelper {
@@ -325,7 +327,9 @@ public class ValidationHelper {
         homePage.accountNumberInput.sendKeys("Test001");
         homePage.nameOnCardInput.sendKeys("Jane Doe");
         homePage.phoneNumberInput.sendKeys("303-296-3599");
-        homePage.amountInput.sendKeys("900");
+        String num=Integer.toString(getRandomNumber(900, 1));
+        homePage.amountInput.sendKeys(num + Keys.ENTER);
+        logger.info("Entered amount "+num+" successfully");
         homePage.cardNumberInput.sendKeys("4293 1891 0000 0008");
         homePage.cvcInput.sendKeys("123");
         homePage.cardExpiryInput.sendKeys("09-2020");
@@ -356,7 +360,9 @@ public class ValidationHelper {
         homePage.ACHAccountNumberInput.sendKeys("Test001");
         homePage.ACHPayerNameInput.sendKeys("Jane Doe");
         homePage.ACHPhoneNumberInput.sendKeys("303-296-3599");
-        homePage.ACHAmountInput.sendKeys("10");
+        String num=Integer.toString(getRandomNumber(900, 1));
+        homePage.ACHAmountInput.sendKeys(num + Keys.ENTER);
+        logger.info("Entered amount "+num+" successfully");
         homePage.ACHNameOnCheckInput.sendKeys("Jane Doe");
         homePage.ACHBankNameInput.sendKeys("Bank Of HON");
         homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
