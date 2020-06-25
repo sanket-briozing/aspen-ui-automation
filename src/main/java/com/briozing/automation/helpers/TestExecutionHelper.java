@@ -1,14 +1,13 @@
 package com.briozing.automation.helpers;
 
 import com.briozing.automation.factory.Log4JFactory;
-import com.briozing.automation.pageobjects.HomePage;
 import com.briozing.automation.utilities.AppAssert;
 import com.briozing.automation.utilities.CommonMethods;
 import com.briozing.automation.utilities.MainUtils;
 import com.briozing.automation.utilities.TestSteps;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
-
+import com.briozing.automation.pageobjects.*;
 import java.util.Map;
 
 public class TestExecutionHelper {
@@ -373,6 +372,51 @@ public class TestExecutionHelper {
         if(TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_ACH_DETAILS_FORM.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.VALIDATE_ENTERED_AMOUNT_TO_PAY_TODAY_IS_POPULATED_IN_ACH_DETAILS_FORM.name());
             validationHelper.validateEnteredAmountToPayTodayPopulatedInACHDetailsForm(homePage);
+        }
+
+        if(TestSteps.VALIDATE_ACCOUNT_PAYMENT_HISTORY_BUTTON_DISPLAY.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ACCOUNT_PAYMENT_HISTORY_BUTTON_DISPLAY.name());
+            validationHelper.validateAccountPaymentHistoryButtonDisplayed(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_ACCOUNT_PAYMENT_HISTORY_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_ACCOUNT_PAYMENT_HISTORY_BUTTON.name());
+            homePage.accountPaymentHistoryButton.click();
+        }
+
+        if(TestSteps.VALIDATE_LAST_5_PAYMENTS_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_LAST_5_PAYMENTS_CARD.name());
+            validationHelper.validateLast5PaymentsCard(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_SEE_ADDITIONAL_PAYMENTS_NO.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_SEE_ADDITIONAL_PAYMENTS_NO.name());
+            homePage.seeAdditionalPaymentsNoButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_SEE_ADDITIONAL_PAYMENTS_YES.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_SEE_ADDITIONAL_PAYMENTS_YES.name());
+            homePage.seeAdditionalPaymentsYesButton.click();
+        }
+
+        if(TestSteps.VALIDATE_ACCOUNT_HISTORY_THANK_YOU_AND_HELP_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_ACCOUNT_HISTORY_THANK_YOU_AND_HELP_CARD.name());
+            validationHelper.validateAccHistoryThankYouAndHelpCard(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_ACCOUNT_HISTORY_HELP_NO.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_ACCOUNT_HISTORY_HELP_NO.name());
+            homePage.accHistoryThankYouAndHelpNo.click();
+        }
+
+        if(TestSteps.STEP_CLICK_ACCOUNT_HISTORY_HELP_YES.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_ACCOUNT_HISTORY_HELP_YES.name());
+            homePage.accHistoryThankYouAndHelpYes.click();
+        }
+
+        if(TestSteps.VALIDATE_I_CAN_HELP_YOU_WITH_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_I_CAN_HELP_YOU_WITH_CARD.name());
+            validationHelper.validateICanHelpYouWithCard(homePage);
         }
     }
 }

@@ -2,14 +2,19 @@ package com.briozing.automation.pageobjects;
 
 import com.briozing.automation.base.WebDriverFactory;
 import com.briozing.automation.config.Configuration;
+import com.briozing.automation.factory.Log4JFactory;
 import com.briozing.automation.utilities.CommonMethods;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class HomePage {
 
     CommonMethods commonMethods = new CommonMethods();
+    Logger logger = Log4JFactory.getLogger(this.getClass().getSimpleName());
 
     public HomePage() throws Exception {
         PageFactory.initElements(WebDriverFactory.getDriver(), this);
@@ -249,8 +254,47 @@ public class HomePage {
     @FindBy(xpath = "//span[text()='Aspen']/parent::div/following-sibling::div[2]/img[2]")
     public WebElement crossButton;
 
-    public void askAspenButtonClick() throws Exception {
-        askAspenButton.click();
-        commonMethods.pause(2000);
-    }
+    @FindBy(xpath = "//span[contains(text(),' Account Payment History ')]/parent::button")
+    public WebElement accountPaymentHistoryButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your last 5 payments made on the account')]")
+    public WebElement last5PaymentsMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'Yes')]/parent::button")
+    public WebElement seeAdditionalPaymentsYesButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]/parent::button")
+    public WebElement seeAdditionalPaymentsNoButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::div[2]//tr/th")
+    public List<WebElement> last5PaymentTableHeadingList;
+
+    @FindBy(xpath="//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[1]/span")
+    public List<WebElement> last5PaymentTableAccountNumberList;
+
+    @FindBy(xpath="//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[2]/span")
+    public List<WebElement> last5PaymentTablePaymentDateList;
+
+    @FindBy(xpath="//span[contains(text(),'Here are your last 5 payments made on the account')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[3]/span")
+    public List<WebElement> last5PaymentTablePaymentAmountList;
+
+    @FindBy(xpath="//span[contains(text(),'Thank you - let me know if I can help you with something else?')]")
+    public WebElement accHistoryThankYouAndHelpMessage;
+
+    @FindBy(xpath="//span[contains(text(),'Thank you - let me know if I can help you with something else?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'Yes')]/parent::button")
+    public WebElement accHistoryThankYouAndHelpYes;
+
+    @FindBy(xpath="//span[contains(text(),'Thank you - let me know if I can help you with something else?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]/parent::button")
+    public WebElement accHistoryThankYouAndHelpNo;
+
+    @FindBy(xpath="//span[text()='I can help you with:']")
+    public WebElement iCanHelpYouWithMessage;
+
+    @FindBy(xpath="//span[text()='I can help you with:']/ancestor::app-message-bar/following-sibling::app-clickable-options//span")
+    public List<WebElement> iCanHelpYouWithButtons;
+
+//    public void askAspenButtonClick() throws Exception {
+//        askAspenButton.click();
+//        commonMethods.pause(2000);
+//    }
 }

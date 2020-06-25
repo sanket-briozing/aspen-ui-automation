@@ -1,19 +1,17 @@
 package com.briozing.automation.helpers;
 
 import com.briozing.automation.factory.Log4JFactory;
-import com.briozing.automation.pageobjects.HomePage;
 import com.briozing.automation.utilities.AppAssert;
 import com.briozing.automation.utilities.CommonMethods;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import com.briozing.automation.pageobjects.*;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date;
+import java.util.*;
 
 import static com.briozing.automation.helpers.TestExecutionHelper.getRandomNumber;
-import static jdk.nashorn.internal.objects.NativeMath.round;
 
 public class ValidationHelper {
 
@@ -389,5 +387,106 @@ public class ValidationHelper {
         AppAssert.assertEqual(confirmationNumber,"123456","Confirmation Number ");
         AppAssert.assertEqual(planAmount,agreedPlanAmount,"Confirmed plan amount ");
         AppAssert.assertEqual(nextDueDate,nextDueDateExpected,"Next payment due date ");
+    }
+
+    public void validateAccountPaymentHistoryButtonDisplayed(HomePage homePage){
+        AppAssert.assertTrue(homePage.accountPaymentHistoryButton.isDisplayed(),"Account Payment History button displayed");
+    }
+
+    public ArrayList<String> getLast5PaymentsTableActualList(List<WebElement> elementList, boolean isSorted) {
+        ArrayList<String> stringArrayList = new ArrayList<>();
+        for (WebElement element : elementList) {
+            stringArrayList.add(element.getText());
+        }
+        Collections.sort(stringArrayList);
+        logger.debug("Actual Collection Sorted : " + stringArrayList);
+        return stringArrayList;
+    }
+
+    public ArrayList<String> getLast5PaymentsTableHeadingExpectedList() {
+        ArrayList<String> expectedColumnHeadings = new ArrayList<>();
+        expectedColumnHeadings.add(" Account Number ");
+        expectedColumnHeadings.add(" Payment Date ");
+        expectedColumnHeadings.add(" Payment Amount ");
+        Collections.sort(expectedColumnHeadings);
+        return expectedColumnHeadings;
+    }
+
+    public ArrayList<String> getLast5PaymentsTableAccountNumberExpectedList() {
+        ArrayList<String> expectedAccountNumberColumnData = new ArrayList<>();
+        expectedAccountNumberColumnData.add(" 3171525 ");
+        expectedAccountNumberColumnData.add(" 3171525 ");
+        expectedAccountNumberColumnData.add(" 3171525 ");
+        expectedAccountNumberColumnData.add(" 3171525 ");
+        expectedAccountNumberColumnData.add(" 3171525 ");
+        Collections.sort(expectedAccountNumberColumnData);
+        return expectedAccountNumberColumnData;
+    }
+
+    public ArrayList<String> getLast5PaymentsTablePaymentDateExpectedList() {
+        ArrayList<String> expectedPaymentDateColumnData = new ArrayList<>();
+        expectedPaymentDateColumnData.add(" 02/17/2017 ");
+        expectedPaymentDateColumnData.add(" 02/17/2017 ");
+        expectedPaymentDateColumnData.add(" 02/17/2017 ");
+        expectedPaymentDateColumnData.add(" 02/17/2017 ");
+        expectedPaymentDateColumnData.add(" 12/18/2014 ");
+        Collections.sort(expectedPaymentDateColumnData);
+        return expectedPaymentDateColumnData;
+    }
+
+    public ArrayList<String> getLast5PaymentsTablePaymentAmountExpectedList() {
+        ArrayList<String> expectedPaymentAmountColumnData = new ArrayList<>();
+        expectedPaymentAmountColumnData.add(" 30 ");
+        expectedPaymentAmountColumnData.add(" 29 ");
+        expectedPaymentAmountColumnData.add(" 1000 ");
+        expectedPaymentAmountColumnData.add(" 10 ");
+        expectedPaymentAmountColumnData.add(" 5 ");
+        Collections.sort(expectedPaymentAmountColumnData);
+        return expectedPaymentAmountColumnData;
+    }
+
+    public void validateLast5PaymentsCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.last5PaymentsMessage.isDisplayed(),"Here are your last 5 payments made on the account message displayed");
+        AppAssert.assertTrue(homePage.seeAdditionalPaymentsYesButton.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.seeAdditionalPaymentsNoButton.isDisplayed(),"No button displayed");
+        ArrayList<String> actualColumnHeadingList = getLast5PaymentsTableActualList(homePage.last5PaymentTableHeadingList, true);
+        ArrayList<String> expectedColumnHeadingList=getLast5PaymentsTableHeadingExpectedList();
+        AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table headings ");
+        ArrayList<String> actualAccountNumberList = getLast5PaymentsTableActualList(homePage.last5PaymentTableAccountNumberList, true);
+        ArrayList<String> expectedAccountNumberList=getLast5PaymentsTableAccountNumberExpectedList();
+        AppAssert.assertEqual(actualAccountNumberList,expectedAccountNumberList,"Account number column ");
+        ArrayList<String> actualPaymentDateList = getLast5PaymentsTableActualList(homePage.last5PaymentTablePaymentDateList, true);
+        ArrayList<String> expectedPaymentDateList=getLast5PaymentsTablePaymentDateExpectedList();
+        AppAssert.assertEqual(actualPaymentDateList,expectedPaymentDateList,"Payment Date column ");
+        ArrayList<String> actualPaymentAmountList = getLast5PaymentsTableActualList(homePage.last5PaymentTablePaymentAmountList, true);
+        ArrayList<String> expectedPaymentAmountList=getLast5PaymentsTablePaymentAmountExpectedList();
+        AppAssert.assertEqual(actualPaymentAmountList,expectedPaymentAmountList,"Payment Amount column ");
+    }
+
+    public void validateAccHistoryThankYouAndHelpCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.accHistoryThankYouAndHelpMessage.isDisplayed(),"Thank you - let me know if I can help you with something else? message displayed");
+        AppAssert.assertTrue(homePage.accHistoryThankYouAndHelpYes.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.accHistoryThankYouAndHelpNo.isDisplayed(),"No button displayed");
+    }
+
+    public ArrayList<String> getAllHelpButtonsExpectedList() {
+        ArrayList<String> expectedHelpButtons = new ArrayList<>();
+        expectedHelpButtons.add(" Make a Payment ");
+        expectedHelpButtons.add(" Express Pay ");
+        expectedHelpButtons.add(" Check Balance ");
+        expectedHelpButtons.add(" Update Profile ");
+        expectedHelpButtons.add(" Update Insurance ");
+        expectedHelpButtons.add(" Financial Assistance ");
+        expectedHelpButtons.add(" Account Payment History ");
+        expectedHelpButtons.add(" Other Request ");
+        Collections.sort(expectedHelpButtons);
+        return expectedHelpButtons;
+    }
+
+    public void validateICanHelpYouWithCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.iCanHelpYouWithMessage.isDisplayed(),"I can help you with button displayed");
+        ArrayList<String> actualButtonsList = getLast5PaymentsTableActualList(homePage.iCanHelpYouWithButtons, true);
+        ArrayList<String> expectedButtonList=getAllHelpButtonsExpectedList();
+        AppAssert.assertEqual(actualButtonsList,expectedButtonList,"Help Buttons ");
     }
 }
