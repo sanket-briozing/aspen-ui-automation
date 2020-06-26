@@ -59,6 +59,9 @@ public class HomePage {
     @FindBy(xpath = "//button[@class='mat-primary form-button mat-flat-button mat-button-base']/span[text()='Login']")
     public WebElement loginButton;
 
+    @FindBy(xpath = "//app-login-form-intent//span[contains(text(),'Create Account')]")
+    public WebElement createAccountButton;
+
     @FindBy(xpath = "//span[contains(text(),'You have a total outstanding balance')]")
     public WebElement totalBalanceMessage;
 
@@ -154,6 +157,24 @@ public class HomePage {
 
     @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Bank check number']")
     public WebElement ACHBankCheckNumberInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Address Line 1']")
+    public WebElement ACHAddressLine1Input;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Address Line 2']")
+    public WebElement ACHAddressLine2Input;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='City']")
+    public WebElement ACHCityInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='State']")
+    public WebElement ACHStateInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Zip Code']")
+    public WebElement ACHZipCodeInput;
+
+    @FindBy(xpath = "//app-payment-by-ach-form-intent/form//input[@placeholder='Country']")
+    public WebElement ACHCountryInput;
 
     @FindBy(xpath = "//app-confirmation-dialog//div[text()='Credit Card Payment Confirmation']")
     public WebElement CreditCardPaymentConfirmationMessageHeading;
@@ -293,8 +314,54 @@ public class HomePage {
     @FindBy(xpath="//span[text()='I can help you with:']/ancestor::app-message-bar/following-sibling::app-clickable-options//span")
     public List<WebElement> iCanHelpYouWithButtons;
 
-//    public void askAspenButtonClick() throws Exception {
-//        askAspenButton.click();
-//        commonMethods.pause(2000);
-//    }
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]")
+    public WebElement provideDurationMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'3 months')]")
+    public WebElement provideDuration3MonthsButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'6 months')]")
+    public WebElement provideDuration6MonthsButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'9 months')]")
+    public WebElement provideDuration9MonthsButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'1 year')]")
+    public WebElement provideDuration1YearButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Please provide the duration')]/ancestor::div[@class='ng-star-inserted'][2]/following-sibling::div[1]//app-message-bar//span")
+    public WebElement providedDuration;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]")
+    public WebElement recordsForProvidedDurationMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'Yes')]")
+    public WebElement recordsForProvidedDurationFoundYesButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]")
+    public WebElement recordsForProvidedDurationFoundNoButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::div[2]//tr/th")
+    public List<WebElement> recordsForProvidedDurationTableHeadingList;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::div[2]//tr/th")
+    public WebElement recordsForProvidedDurationTableNoRecordsFound;
+
+    @FindBy(xpath = "//span[contains(text(),'Please contact the representative at XXX-XXX-XXXX')]")
+    public WebElement contactRepresentativeMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'Please contact the representative at XXX-XXX-XXXX')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'Yes')]")
+    public WebElement contactRepresentativeYes;
+
+    @FindBy(xpath = "//span[contains(text(),'Please contact the representative at XXX-XXX-XXXX')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]")
+    public WebElement contactRepresentativeNo;
+
+    @FindBy(xpath = "//span[contains(text(),'Sounds great, let me know if I can help you with something else?')]")
+    public WebElement soundsGreatAndHelpMessage;
+
+    @FindBy(xpath = "//span[contains(text(),'Sounds great, let me know if I can help you with something else?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'Yes')]")
+    public WebElement soundsGreatAndHelpYes;
+
+    @FindBy(xpath = "//span[contains(text(),'Sounds great, let me know if I can help you with something else?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]")
+    public WebElement soundsGreatAndHelpNo;
 }

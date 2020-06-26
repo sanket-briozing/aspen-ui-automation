@@ -957,6 +957,7 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_CREDIT_CARD_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
@@ -983,6 +984,7 @@ public class MakeAPaymentTest extends BaseTest {
             testSteps.put(TestSteps.VALIDATE_ACH_PAYMENT_CONFIRMATION_POPUP_DISPLAY.name(),true);
             testSteps.put(TestSteps.STEP_CLICK_CONFIRM_PAYMENT.name(),true);
             testSteps.put(TestSteps.VALIDATE_PAYMENT_DONE_CONFIRMATION_MESSAGE.name(),true);
+            testSteps.put(TestSteps.STEP_CLICK_CROSS_BUTTON.name(),true);
             testExecutionHelper.executeTest(testSteps,homePageObj,expectedOutstandingBalance);
         } catch (Exception ex) {
             logger.error(ex.getMessage());

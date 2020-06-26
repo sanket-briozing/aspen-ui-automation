@@ -418,5 +418,75 @@ public class TestExecutionHelper {
             MainUtils.stepLog(logger, TestSteps.VALIDATE_I_CAN_HELP_YOU_WITH_CARD.name());
             validationHelper.validateICanHelpYouWithCard(homePage);
         }
+
+        if(TestSteps.VALIDATE_PROVIDE_DURATION_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_PROVIDE_DURATION_CARD.name());
+            validationHelper.validateProvideDurationCard(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_PROVIDE_DURATION_3_MONTHS_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PROVIDE_DURATION_3_MONTHS_BUTTON.name());
+            homePage.provideDuration3MonthsButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_PROVIDE_DURATION_6_MONTHS_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PROVIDE_DURATION_6_MONTHS_BUTTON.name());
+            homePage.provideDuration6MonthsButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_PROVIDE_DURATION_9_MONTHS_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PROVIDE_DURATION_9_MONTHS_BUTTON.name());
+            homePage.provideDuration9MonthsButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_PROVIDE_DURATION_1_YEAR_BUTTON.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_PROVIDE_DURATION_1_YEAR_BUTTON.name());
+            homePage.provideDuration1YearButton.click();
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_RECORDS_OF_PROVIDED_DURATION_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_RECORDS_OF_PROVIDED_DURATION_CARD.name());
+            validationHelper.validatePaymentRecordsOfProvidedDurationCard(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_NO.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_NO.name());
+            homePage.recordsForProvidedDurationFoundNoButton.click();
+        }
+
+        if(TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_YES.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_YES.name());
+            homePage.recordsForProvidedDurationFoundYesButton.click();
+        }
+
+        if(TestSteps.VALIDATE_CONTACT_REPRESENTATIVE_AND_HELP_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_CONTACT_REPRESENTATIVE_AND_HELP_CARD.name());
+            validationHelper.validateContactRepresentativeAndHelpCard(homePage);
+        }
+
+        if(TestSteps.STEP_CONTACT_REPRESENTATIVE_AND_HELP_NO.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CONTACT_REPRESENTATIVE_AND_HELP_NO.name());
+            homePage.contactRepresentativeNo.click();
+        }
+
+        if(TestSteps.STEP_CONTACT_REPRESENTATIVE_AND_HELP_YES.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CONTACT_REPRESENTATIVE_AND_HELP_YES.name());
+            homePage.contactRepresentativeYes.click();
+        }
+
+        if(TestSteps.VALIDATE_SOUNDS_GREAT_AND_HELP_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_SOUNDS_GREAT_AND_HELP_CARD.name());
+            validationHelper.validateSoundsGreatAndHelpCard(homePage);
+        }
+
+        if(TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_NO.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_NO.name());
+            homePage.soundsGreatAndHelpNo.click();
+        }
+
+        if(TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_YES.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_YES.name());
+            homePage.soundsGreatAndHelpYes.click();
+        }
     }
 }

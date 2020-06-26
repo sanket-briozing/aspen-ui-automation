@@ -42,6 +42,7 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.usernameInput.isDisplayed(),"Input for username displayed");
         AppAssert.assertTrue(homePage.passwordInput.isDisplayed(),"Input for password displayed");
         AppAssert.assertTrue(homePage.loginButton.isDisplayed(),"Login button displayed");
+        AppAssert.assertTrue(homePage.createAccountButton.isDisplayed(),"Create Account button displayed");
     }
 
     public void validateTotalOutstandingBalanceMessageDisplayed(HomePage homePage, String expectedOutstandingBalance) {
@@ -129,6 +130,12 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.ACHBankRoutingNumberInput.isDisplayed(),"Input bank routing number displayed");
         AppAssert.assertTrue(homePage.ACHBankAccountNumberInput.isDisplayed(),"Input bank account number displayed");
         AppAssert.assertTrue(homePage.ACHBankCheckNumberInput.isDisplayed(),"Input bank check number displayed");
+        AppAssert.assertTrue(homePage.ACHAddressLine1Input.isDisplayed(),"Input Address line 1 displayed");
+        AppAssert.assertTrue(homePage.ACHAddressLine2Input.isDisplayed(),"Input Address line 2 displayed");
+        AppAssert.assertTrue(homePage.ACHCityInput.isDisplayed(),"Input City displayed");
+        AppAssert.assertTrue(homePage.ACHStateInput.isDisplayed(),"Input State displayed");
+        AppAssert.assertTrue(homePage.ACHZipCodeInput.isDisplayed(),"Input Zip Code displayed");
+        AppAssert.assertTrue(homePage.ACHCountryInput.isDisplayed(),"Input Country displayed");
         AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
     }
 
@@ -143,6 +150,12 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.ACHBankRoutingNumberInput.isDisplayed(),"Input bank routing number displayed");
         AppAssert.assertTrue(homePage.ACHBankAccountNumberInput.isDisplayed(),"Input bank account number displayed");
         AppAssert.assertTrue(homePage.ACHBankCheckNumberInput.isDisplayed(),"Input bank check number displayed");
+        AppAssert.assertTrue(homePage.ACHAddressLine1Input.isDisplayed(),"Input Address line 1 displayed");
+        AppAssert.assertTrue(homePage.ACHAddressLine2Input.isDisplayed(),"Input Address line 2 displayed");
+        AppAssert.assertTrue(homePage.ACHCityInput.isDisplayed(),"Input City displayed");
+        AppAssert.assertTrue(homePage.ACHStateInput.isDisplayed(),"Input State displayed");
+        AppAssert.assertTrue(homePage.ACHZipCodeInput.isDisplayed(),"Input Zip Code displayed");
+        AppAssert.assertTrue(homePage.ACHCountryInput.isDisplayed(),"Input Country displayed");
         AppAssert.assertTrue(homePage.payButton.isDisplayed(),"Pay button displayed");
     }
 
@@ -349,6 +362,12 @@ public class ValidationHelper {
         homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
         homePage.ACHBankAccountNumberInput.sendKeys("000123456789");
         homePage.ACHBankCheckNumberInput.sendKeys("1001");
+        homePage.ACHAddressLine1Input.sendKeys("1597 COLE BLVD");
+        homePage.ACHAddressLine2Input.sendKeys("STE 150");
+        homePage.ACHCityInput.sendKeys("Lakewood");
+        homePage.ACHStateInput.sendKeys("CO");
+        homePage.ACHZipCodeInput.sendKeys("80401");
+        homePage.ACHCountryInput.sendKeys("US");
         homePage.payButton.click();
         commonMethods.pause(2000);
     }
@@ -366,6 +385,12 @@ public class ValidationHelper {
         homePage.ACHBankRoutingNumberInput.sendKeys("110000000");
         homePage.ACHBankAccountNumberInput.sendKeys("000123456789");
         homePage.ACHBankCheckNumberInput.sendKeys("1001");
+        homePage.ACHAddressLine1Input.sendKeys("1597 COLE BLVD");
+        homePage.ACHAddressLine2Input.sendKeys("STE 150");
+        homePage.ACHCityInput.sendKeys("Lakewood");
+        homePage.ACHStateInput.sendKeys("CO");
+        homePage.ACHZipCodeInput.sendKeys("80401");
+        homePage.ACHCountryInput.sendKeys("US");
         homePage.payButton.click();
         commonMethods.pause(2000);
     }
@@ -393,7 +418,7 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.accountPaymentHistoryButton.isDisplayed(),"Account Payment History button displayed");
     }
 
-    public ArrayList<String> getLast5PaymentsTableActualList(List<WebElement> elementList, boolean isSorted) {
+    public ArrayList<String> getActualList(List<WebElement> elementList, boolean isSorted) {
         ArrayList<String> stringArrayList = new ArrayList<>();
         for (WebElement element : elementList) {
             stringArrayList.add(element.getText());
@@ -403,7 +428,7 @@ public class ValidationHelper {
         return stringArrayList;
     }
 
-    public ArrayList<String> getLast5PaymentsTableHeadingExpectedList() {
+    public ArrayList<String> getTableHeadingExpectedList() {
         ArrayList<String> expectedColumnHeadings = new ArrayList<>();
         expectedColumnHeadings.add(" Account Number ");
         expectedColumnHeadings.add(" Payment Date ");
@@ -449,16 +474,16 @@ public class ValidationHelper {
         AppAssert.assertTrue(homePage.last5PaymentsMessage.isDisplayed(),"Here are your last 5 payments made on the account message displayed");
         AppAssert.assertTrue(homePage.seeAdditionalPaymentsYesButton.isDisplayed(),"Yes button displayed");
         AppAssert.assertTrue(homePage.seeAdditionalPaymentsNoButton.isDisplayed(),"No button displayed");
-        ArrayList<String> actualColumnHeadingList = getLast5PaymentsTableActualList(homePage.last5PaymentTableHeadingList, true);
-        ArrayList<String> expectedColumnHeadingList=getLast5PaymentsTableHeadingExpectedList();
+        ArrayList<String> actualColumnHeadingList = getActualList(homePage.last5PaymentTableHeadingList, true);
+        ArrayList<String> expectedColumnHeadingList=getTableHeadingExpectedList();
         AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table headings ");
-        ArrayList<String> actualAccountNumberList = getLast5PaymentsTableActualList(homePage.last5PaymentTableAccountNumberList, true);
+        ArrayList<String> actualAccountNumberList = getActualList(homePage.last5PaymentTableAccountNumberList, true);
         ArrayList<String> expectedAccountNumberList=getLast5PaymentsTableAccountNumberExpectedList();
         AppAssert.assertEqual(actualAccountNumberList,expectedAccountNumberList,"Account number column ");
-        ArrayList<String> actualPaymentDateList = getLast5PaymentsTableActualList(homePage.last5PaymentTablePaymentDateList, true);
+        ArrayList<String> actualPaymentDateList = getActualList(homePage.last5PaymentTablePaymentDateList, true);
         ArrayList<String> expectedPaymentDateList=getLast5PaymentsTablePaymentDateExpectedList();
         AppAssert.assertEqual(actualPaymentDateList,expectedPaymentDateList,"Payment Date column ");
-        ArrayList<String> actualPaymentAmountList = getLast5PaymentsTableActualList(homePage.last5PaymentTablePaymentAmountList, true);
+        ArrayList<String> actualPaymentAmountList = getActualList(homePage.last5PaymentTablePaymentAmountList, true);
         ArrayList<String> expectedPaymentAmountList=getLast5PaymentsTablePaymentAmountExpectedList();
         AppAssert.assertEqual(actualPaymentAmountList,expectedPaymentAmountList,"Payment Amount column ");
     }
@@ -471,22 +496,58 @@ public class ValidationHelper {
 
     public ArrayList<String> getAllHelpButtonsExpectedList() {
         ArrayList<String> expectedHelpButtons = new ArrayList<>();
-        expectedHelpButtons.add(" Make a Payment ");
-        expectedHelpButtons.add(" Express Pay ");
-        expectedHelpButtons.add(" Check Balance ");
-        expectedHelpButtons.add(" Update Profile ");
-        expectedHelpButtons.add(" Update Insurance ");
-        expectedHelpButtons.add(" Financial Assistance ");
-        expectedHelpButtons.add(" Account Payment History ");
-        expectedHelpButtons.add(" Other Request ");
+        expectedHelpButtons.add("Make a Payment");
+        expectedHelpButtons.add("Express Pay");
+        expectedHelpButtons.add("Check Balance");
+        expectedHelpButtons.add("Update Profile");
+        expectedHelpButtons.add("Update Insurance");
+        expectedHelpButtons.add("Financial Assistance");
+        expectedHelpButtons.add("Account Payment History");
+        expectedHelpButtons.add("Other Request");
         Collections.sort(expectedHelpButtons);
         return expectedHelpButtons;
     }
 
     public void validateICanHelpYouWithCard(HomePage homePage){
         AppAssert.assertTrue(homePage.iCanHelpYouWithMessage.isDisplayed(),"I can help you with button displayed");
-        ArrayList<String> actualButtonsList = getLast5PaymentsTableActualList(homePage.iCanHelpYouWithButtons, true);
+        ArrayList<String> actualButtonsList = getActualList(homePage.iCanHelpYouWithButtons, true);
         ArrayList<String> expectedButtonList=getAllHelpButtonsExpectedList();
         AppAssert.assertEqual(actualButtonsList,expectedButtonList,"Help Buttons ");
+    }
+
+    public void validateProvideDurationCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.provideDurationMessage.isDisplayed(),"provide duration message displayed");
+        AppAssert.assertTrue(homePage.provideDuration3MonthsButton.isDisplayed(),"3 months button displayed");
+        AppAssert.assertTrue(homePage.provideDuration6MonthsButton.isDisplayed(),"6 months button displayed");
+        AppAssert.assertTrue(homePage.provideDuration9MonthsButton.isDisplayed(),"9 months button displayed");
+        AppAssert.assertTrue(homePage.provideDuration1YearButton.isDisplayed(),"1 Year button displayed");
+    }
+
+    public void validatePaymentRecordsOfProvidedDurationCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationMessage.isDisplayed(),"Here are your payments made on the account message displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundYesButton.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundNoButton.isDisplayed(),"No button displayed");
+        String str=homePage.recordsForProvidedDurationMessage.getText();
+        String actualDuration1= str.substring(str.lastIndexOf("last ")+5,str.lastIndexOf("(s). Did"));
+        String actualDuration2= str.substring(str.lastIndexOf("(")+1,str.lastIndexOf(")"));
+        String actualDuration=actualDuration1.concat(actualDuration2);
+        String expectedDuration=homePage.providedDuration.getText();
+        AppAssert.assertEqual(actualDuration,expectedDuration,"provided duration ");
+        ArrayList<String> actualColumnHeadingList = getActualList(homePage.recordsForProvidedDurationTableHeadingList, true);
+        ArrayList<String> expectedColumnHeadingList=getTableHeadingExpectedList();
+        AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table column headings ");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationTableNoRecordsFound.isDisplayed(),"No records found displayed");
+    }
+
+    public void validateContactRepresentativeAndHelpCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.contactRepresentativeMessage.isDisplayed(),"Contact representative message displayed");
+        AppAssert.assertTrue(homePage.contactRepresentativeYes.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.contactRepresentativeNo.isDisplayed(),"No button displayed");
+    }
+
+    public void validateSoundsGreatAndHelpCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.soundsGreatAndHelpMessage.isDisplayed(),"Sounds great, let me know if I can help you with something else? message displayed");
+        AppAssert.assertTrue(homePage.soundsGreatAndHelpYes.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.soundsGreatAndHelpNo.isDisplayed(),"No button displayed");
     }
 }
