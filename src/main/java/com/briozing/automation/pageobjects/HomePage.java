@@ -364,4 +364,13 @@ public class HomePage {
 
     @FindBy(xpath = "//span[contains(text(),'Sounds great, let me know if I can help you with something else?')]/ancestor::app-message-bar/following-sibling::app-clickable-options//span[contains(text(),'No')]")
     public WebElement soundsGreatAndHelpNo;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[1]/span")
+    public List<WebElement> recordsForProvidedDurationTableAccountNumberList;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[2]/span")
+    public List<WebElement> recordsForProvidedDurationTablePaymentDateList;
+
+    @FindBy(xpath = "//span[contains(text(),'Here are your payments made on the account in the last')]/ancestor::app-message-bar/following-sibling::div[2]//tbody/tr/td[3]/span")
+    public List<WebElement> recordsForProvidedDurationTablePaymentAmountList;
 }

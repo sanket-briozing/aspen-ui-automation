@@ -449,6 +449,11 @@ public class TestExecutionHelper {
             validationHelper.validatePaymentRecordsOfProvidedDurationCard(homePage);
         }
 
+        if(TestSteps.VALIDATE_PAYMENT_RECORDS_OF_PROVIDED_DURATION_1_YEAR_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_RECORDS_OF_PROVIDED_DURATION_1_YEAR_CARD.name());
+            validationHelper.validatePaymentRecordsOfProvidedDuration1YearCard(homePage);
+        }
+
         if(TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_NO.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_CLICK_FOUND_WHAT_YOU_ARE_LOOKING_FOR_NO.name());
             homePage.recordsForProvidedDurationFoundNoButton.click();
@@ -487,6 +492,18 @@ public class TestExecutionHelper {
         if(TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_YES.name().equals(stepName) && isStepEnabled){
             MainUtils.stepLog(logger, TestSteps.STEP_CLICK_SOUNDS_GREAT_AND_HELP_YES.name());
             homePage.soundsGreatAndHelpYes.click();
+        }
+
+        if(TestSteps.STEP_ENTER_DURATION.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.STEP_ENTER_DURATION.name());
+            String duration= "5 years";
+            homePage.startConversationInput.sendKeys(duration + Keys.ENTER);
+            logger.info("Entered duration :- "+ duration);
+        }
+
+        if(TestSteps.VALIDATE_PAYMENT_RECORDS_OF_ENTERED_DURATION_CARD.name().equals(stepName) && isStepEnabled){
+            MainUtils.stepLog(logger, TestSteps.VALIDATE_PAYMENT_RECORDS_OF_ENTERED_DURATION_CARD.name());
+            validationHelper.validatePaymentRecordsOfEnteredDurationCard(homePage);
         }
     }
 }

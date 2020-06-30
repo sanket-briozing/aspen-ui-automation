@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import com.briozing.automation.pageobjects.*;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import static com.briozing.automation.helpers.TestExecutionHelper.getRandomNumber;
@@ -537,6 +539,67 @@ public class ValidationHelper {
         ArrayList<String> expectedColumnHeadingList=getTableHeadingExpectedList();
         AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table column headings ");
         AppAssert.assertTrue(homePage.recordsForProvidedDurationTableNoRecordsFound.isDisplayed(),"No records found displayed");
+    }
+
+    public void validatePaymentRecordsOfProvidedDuration1YearCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationMessage.isDisplayed(),"Here are your payments made on the account message displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundYesButton.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundNoButton.isDisplayed(),"No button displayed");
+        String str=homePage.recordsForProvidedDurationMessage.getText();
+        String actualDuration=str.substring(str.lastIndexOf("last ")+5,str.lastIndexOf("(s). Did"));
+        String expectedDuration=homePage.providedDuration.getText();
+        AppAssert.assertEqual(actualDuration,expectedDuration,"provided duration ");
+        ArrayList<String> actualColumnHeadingList = getActualList(homePage.recordsForProvidedDurationTableHeadingList, true);
+        ArrayList<String> expectedColumnHeadingList=getTableHeadingExpectedList();
+        AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table column headings ");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationTableNoRecordsFound.isDisplayed(),"No records found displayed");
+    }
+
+    public void validatePaymentRecordsOfEnteredDurationCard(HomePage homePage){
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationMessage.isDisplayed(),"Here are your payments made on the account message displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundYesButton.isDisplayed(),"Yes button displayed");
+        AppAssert.assertTrue(homePage.recordsForProvidedDurationFoundNoButton.isDisplayed(),"No button displayed");
+        String str=homePage.recordsForProvidedDurationMessage.getText();
+        String actualDuration1= str.substring(str.lastIndexOf("last ")+5,str.lastIndexOf("(s). Did"));
+        String actualDuration2= str.substring(str.lastIndexOf("(")+1,str.lastIndexOf(")"));
+        String actualDuration=actualDuration1.concat(actualDuration2);
+        String expectedDuration=homePage.providedDuration.getText();
+        AppAssert.assertEqual(actualDuration,expectedDuration,"provided duration ");
+        ArrayList<String> actualColumnHeadingList = getActualList(homePage.recordsForProvidedDurationTableHeadingList, true);
+        ArrayList<String> expectedColumnHeadingList=getTableHeadingExpectedList();
+        AppAssert.assertEqual(actualColumnHeadingList,expectedColumnHeadingList,"Table column headings ");
+        AppAssert.assertEqual(homePage.recordsForProvidedDurationTableAccountNumberList.size(),4,"Populated account numbers ");
+        AppAssert.assertEqual(homePage.recordsForProvidedDurationTablePaymentAmountList.size(),4,"Populated payment amounts ");
+        ArrayList<String> paymentDateList = new ArrayList<>();
+        String strDate;
+        String[] splitStr;
+        String date1;
+        SimpleDateFormat formatter=new SimpleDateFormat("MM/dd/yyyy");
+        Date rowDate;
+        Date currentDate;
+        String expectedDurationNumber= expectedDuration.substring(0,1);
+        int year=Integer.parseInt(expectedDurationNumber);
+        Date backDate;
+            try {
+                for (WebElement  element: homePage.recordsForProvidedDurationTablePaymentDateList) {
+                    strDate = element.getText();
+                    splitStr = strDate.split("\\s+");
+                    date1 = splitStr[1];
+                    rowDate = formatter.parse(date1);
+                    Calendar cal = Calendar.getInstance();
+                    cal.setTimeZone(TimeZone.getTimeZone("GMT"));
+                    currentDate = cal.getTime();
+                    cal.add(Calendar.YEAR, -year);
+                    backDate = cal.getTime();
+                    if(backDate.before(rowDate) && currentDate.after(rowDate)){
+                        paymentDateList.add(element.getText());
+                    }
+                }
+            }catch (Exception ex) {
+                logger.error(ex.getMessage());
+                AppAssert.assertTrue(false, ex.getMessage());
+            }
+        AppAssert.assertEqual(homePage.recordsForProvidedDurationTablePaymentDateList.size(),paymentDateList.size(),"polulated payment dates ");
     }
 
     public void validateContactRepresentativeAndHelpCard(HomePage homePage){
